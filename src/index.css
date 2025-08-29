@@ -258,7 +258,7 @@ table tr a{
 }
 
 .staff-feature {
-  border-radius: 25px;
+  border-radius: 2rem;
   display: flex;
   flex-direction: column;
   width: 30%;
@@ -272,8 +272,8 @@ table tr a{
 
 .staff-feature img {
   width: 65%;
-  border-radius: 15px;
-  margin-top: 50px;
+  border-radius: 2rem;
+  margin-top: 1rem;
 }
 
 .staff-feature h1 {
