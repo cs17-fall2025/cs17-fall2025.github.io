@@ -10,6 +10,8 @@
   --cream2: #f3d6b6;
   --brown: #93441f;
   --brown2: #93441f32;
+  --brown2: #93441f32;
+  --brown3: #93441f19;
   --green1: #7d9941;
 }
 
@@ -164,10 +166,15 @@ table{
     text-align:left;
     overflow:hidden;
     color:#e0e0e0;
+    background-color: var(--brown3);
+    border-radius: 0.5rem;
 }
-table td, table th{
-    padding:10px;
-    border-bottom: 1px solid #c0c0c0;
+table td, th {
+  padding: 0.75rem;
+}
+
+table th{
+    border-bottom: 2px solid var(--brown2);
 }
 
 table tr:hover{
@@ -181,38 +188,33 @@ table tr a{
 }
 
 .current-assignments{
-    text-align: left; 
-    justify-content: center;
-    margin:0;
-    padding:10px;
-    display: flex;
-    flex-direction: row;
-    border-radius:15px;
+  text-align: left; 
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .current-assignments a{
-    display: block; 
-    text-align: center; 
-    text-decoration: none;
-    font-weight: bold;
-    background-color: var(--brown2);
-    padding: 10px;
-    border-radius: 25px;
-}
-
-.current-assignments a:hover{
-    background-color: var(--brown2);
+  display: block; 
+  text-align: center; 
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .card{
-    background-color: var(--brown2);
-    border-radius: 1rem;
-    margin:20px;
-    margin-top:0;
-    margin-bottom:0;
-    padding:1em;
-    color:rgb(216, 216, 216);
+  background-color: var(--brown2);
+  border-radius: 1rem;
+  width: 18rem;
+  margin:1rem;
+  padding:1em;
+  color:rgb(216, 216, 216);
 }
+
+.card hr {
+  margin: 1rem 0;
+}
+
 .source-slide{
     display:flex;
     flex-direction: row;
@@ -224,14 +226,23 @@ table tr a{
     text-decoration: none;
     color:white;
     background-color: var(--brown2);
-    padding: 10px;
-    border-radius: 25px; 
-    margin:10px;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0.2rem;
     margin-bottom:0;
 }
 .assignment-card-line { 
     display: flex; 
     margin-top: 0.5em; 
+}
+
+.current-assignments a,
+.source-slide a {
+    transition: transform 0.15s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.source-slide a:hover {
+    transform: scale(1.07);
 }
 
 /*=======================================*/
@@ -346,5 +357,38 @@ table tr a{
   .staff-all {
     width: 100%;
   }
+}
+
+/* =============================== */
+/* Notes */
+
+.classes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.recent-classes, .upcoming-classes {
+    width: 48%;
+}
+
+.class-box {
+    background-color: var(--brown2);
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: center;
+    color: var(--brown);
+    cursor: pointer;
+    transition: transform 0.15s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.class-box:hover {
+  transform: scale(1.07);
+}
+
+.upcoming-classes .class-box {
+    margin-bottom: 0;
 }
 

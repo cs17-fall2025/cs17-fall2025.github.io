@@ -16,72 +16,19 @@ const date_formatting_2: Intl.DateTimeFormatOptions = {
 
 const labs = [
   {
-    title: "Lab 1: Setup",
-    out: new Date("8 Sep 2024 14:00:00 EST"),
-    due: new Date("15 Sep 2024 13:59:00 EST"),
+    /* update handout */
+    title: "Lab 11: Sort",
+    out: new Date("10 Nov 2025 14:00:00 EST"),
+    due: new Date("17 Nov 2025 13:59:00 EST"),
     link: "hi.com",
     slide: "hi.com",
     source: "hi.com",
   },
   {
     /* update handout */
-    title: "Lab 2: Racket",
-    out: new Date("15 Sep 2024 14:00:00 EST"),
-    due: new Date("22 Sep 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 3: Recursion",
-    out: new Date("22 Sep 2024 14:00:00 EST"),
-    due: new Date("29 Sep 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 4: Natural Numbers",
-    out: new Date("22 Sep 2024 14:00:00 EST"),
-    due: new Date("29 Sep 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 5: Search",
-    out: new Date("29 Sep 2024 14:00:00 EST"),
-    due: new Date("6 Oct 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 6: Reason",
-    out: new Date("6 Oct 2024 14:00:00 EST"),
-    due: new Date("13 Oct 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 7: Debugging",
-    out: new Date("13 Oct 2024 14:00:00 EST"),
-    due: new Date("20 Oct 2024 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 8: Environments",
-    out: new Date("20 Oct 2024 14:00:00 EST"),
-    due: new Date("27 Oct 2024 13:59:00 EST"),
+    title: "Lab 10: Game",
+    out: new Date("3 Nov 2025 14:00:00 EST"),
+    due: new Date("10 Nov 2025 13:59:00 EST"),
     link: "",
     slide: "",
     source: "",
@@ -89,26 +36,79 @@ const labs = [
   {
     /* update handout */
     title: "Lab 9: ADTs",
-    out: new Date("27 Oct 2024 14:00:00 EST"),
-    due: new Date("3 Nov 2024 13:59:00 EST"),
+    out: new Date("27 Oct 2025 14:00:00 EST"),
+    due: new Date("3 Nov 2025 13:59:00 EST"),
     link: "",
     slide: "",
     source: "",
   },
   {
     /* update handout */
-    title: "Lab 10: Game",
-    out: new Date("3 Nov 2024 14:00:00 EST"),
-    due: new Date("10 Nov 2024 13:59:00 EST"),
+    title: "Lab 8: Environments",
+    out: new Date("20 Oct 2025 14:00:00 EST"),
+    due: new Date("27 Oct 2025 13:59:00 EST"),
     link: "",
     slide: "",
     source: "",
   },
   {
     /* update handout */
-    title: "Lab 11: Sort",
-    out: new Date("10 Nov 2024 14:00:00 EST"),
-    due: new Date("17 Nov 2024 13:59:00 EST"),
+    title: "Lab 7: Debugging",
+    out: new Date("13 Oct 2025 14:00:00 EST"),
+    due: new Date("20 Oct 2025 13:59:00 EST"),
+    link: "",
+    slide: "",
+    source: "",
+  },
+  {
+    /* update handout */
+    title: "Lab 6: Reason",
+    out: new Date("6 Oct 2025 14:00:00 EST"),
+    due: new Date("13 Oct 2025 13:59:00 EST"),
+    link: "",
+    slide: "",
+    source: "",
+  },
+  {
+    /* update handout */
+    title: "Lab 5: Search",
+    out: new Date("29 Sep 2025 14:00:00 EST"),
+    due: new Date("6 Oct 2025 13:59:00 EST"),
+    link: "",
+    slide: "",
+    source: "",
+  },
+  {
+    /* update handout */
+    title: "Lab 4: Natural Numbers",
+    out: new Date("22 Sep 2025 14:00:00 EST"),
+    due: new Date("29 Sep 2025 13:59:00 EST"),
+    link: "",
+    slide: "",
+    source: "",
+  },
+  {
+    /* update handout */
+    title: "Lab 3: Recursion",
+    out: new Date("22 Sep 2025 14:00:00 EST"),
+    due: new Date("29 Sep 2025 13:59:00 EST"),
+    link: "",
+    slide: "",
+    source: "",
+  },
+  {
+    /* update handout */
+    title: "Lab 2: Racket",
+    out: new Date("15 Sep 2025 14:00:00 EST"),
+    due: new Date("22 Sep 2025 13:59:00 EST"),
+    link: "",
+    slide: "",
+    source: "",
+  },
+  {
+    title: "Lab 1: Setup",
+    out: new Date("28 Aug 2025 14:00:00 EST"),
+    due: new Date("15 Sep 2025 13:59:00 EST"),
     link: "hi.com",
     slide: "hi.com",
     source: "hi.com",
@@ -117,82 +117,82 @@ const labs = [
 
 const homeworks = [
   {
-    title: "HW 1: Warmup",
-    out: new Date("4 Sep 2024 15:30:00 EST"),
-    due: new Date("11 Sep 2024 22:00:00 EST"),
-    late: new Date("12 Sep 2024 22:00:00 EST"),
+    title: "HW 10: Game Tools",
+    out: new Date("14 Nov 2025 12:00:00 EST"),
+    due: new Date("20 Nov 2025 22:00:00 EST"),
+    late: new Date("21 Nov 2025 22:00:00 EST"),
     link: "hi.com",
     source: "hi.com",
   },
   {
-    title: "HW 2: Procedures",
-    out: new Date("12 Sep 2024 12:00:00 EST"),
-    due: new Date("18 Sep 2024 22:00:00 EST"),
-    late: new Date("19 Sep 2024 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 3: Recursion",
-    out: new Date("19 Sep 2024 12:00:00 EST"),
-    due: new Date("25 Sep 2024 22:00:00 EST"),
-    late: new Date("26 Sep 2024 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 4: More Recursion",
-    out: new Date("26 Sep 2024 12:00:00 EST"),
-    due: new Date("2 Oct 2024 22:00:00 EST"),
-    late: new Date("3 Oct 2024 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 5: More HOPs and Subsets",
-    out: new Date("3 Oct 2024 12:00:00 EST"),
-    due: new Date("9 Oct 2024 22:00:00 EST"),
-    late: new Date("10 Oct 2024 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 6: K-Subsets and Matrices",
-    out: new Date("10 Oct 2024 12:00:00 EST"),
-    due: new Date("16 Oct 2024 22:00:00 EST"),
-    late: new Date("17 Oct 2024 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 7: Rackettecita",
-    out: new Date("17 Oct 2024 12:00:00 EST"),
-    due: new Date("23 Oct 2024 22:00:00 EST"),
-    late: new Date("24 Oct 2024 22:00:00 EST"),
+    title: "HW 9: Trees, Trees, ...and Lists",
+    out: new Date("7 Nov 2025 12:00:00 EST"),
+    due: new Date("13 Nov 2025 22:00:00 EST"),
+    late: new Date("14 Nov 2025 22:00:00 EST"),
     link: "",
     source: "",
   },
   {
     title: "HW 8: ADTs",
-    out: new Date("24 Oct 2024 12:00:00 EST"),
-    due: new Date("30 Oct 2024 22:00:00 EST"),
-    late: new Date("31 Oct 2024 22:00:00 EST"),
+    out: new Date("24 Oct 2025 12:00:00 EST"),
+    due: new Date("30 Oct 2025 22:00:00 EST"),
+    late: new Date("31 Oct 2025 22:00:00 EST"),
     link: "",
     source: "",
   },
   {
-    title: "HW 9: Trees, Trees, ...and Lists",
-    out: new Date("7 Nov 2024 12:00:00 EST"),
-    due: new Date("13 Nov 2024 22:00:00 EST"),
-    late: new Date("14 Nov 2024 22:00:00 EST"),
+    title: "HW 7: Rackettecita",
+    out: new Date("17 Oct 2025 12:00:00 EST"),
+    due: new Date("23 Oct 2025 22:00:00 EST"),
+    late: new Date("24 Oct 2025 22:00:00 EST"),
     link: "",
     source: "",
   },
   {
-    title: "HW 10: Game Tools",
-    out: new Date("14 Nov 2024 12:00:00 EST"),
-    due: new Date("20 Nov 2024 22:00:00 EST"),
-    late: new Date("21 Nov 2024 22:00:00 EST"),
+    title: "HW 6: K-Subsets and Matrices",
+    out: new Date("10 Oct 2025 12:00:00 EST"),
+    due: new Date("16 Oct 2025 22:00:00 EST"),
+    late: new Date("17 Oct 2025 22:00:00 EST"),
+    link: "",
+    source: "",
+  },
+  {
+    title: "HW 5: More HOPs and Subsets",
+    out: new Date("3 Oct 2025 12:00:00 EST"),
+    due: new Date("9 Oct 2025 22:00:00 EST"),
+    late: new Date("10 Oct 2025 22:00:00 EST"),
+    link: "",
+    source: "",
+  },
+  {
+    title: "HW 4: More Recursion",
+    out: new Date("26 Sep 2025 12:00:00 EST"),
+    due: new Date("2 Oct 2025 22:00:00 EST"),
+    late: new Date("3 Oct 2025 22:00:00 EST"),
+    link: "",
+    source: "",
+  },
+  {
+    title: "HW 3: Recursion",
+    out: new Date("19 Sep 2025 12:00:00 EST"),
+    due: new Date("25 Sep 2025 22:00:00 EST"),
+    late: new Date("26 Sep 2025 22:00:00 EST"),
+    link: "",
+    source: "",
+  },
+  {
+    title: "HW 2: Procedures",
+    out: new Date("9 Sep 2025 19:00:00 EST"),
+    due: new Date("18 Sep 2025 22:00:00 EST"),
+    late: new Date("19 Sep 2025 22:00:00 EST"),
+    link: "",
+    source: "",
+  },
+  {
+    title: "HW 1: Warmup",
+    out: new Date("4 Aug 2025 15:30:00 EST"),
+    due: new Date("11 Sep 2025 22:00:00 EST"),
+    late: new Date("12 Sep 2025 22:00:00 EST"),
     link: "hi.com",
     source: "hi.com",
   },
@@ -200,28 +200,28 @@ const homeworks = [
 
 const projects = [
   {
-    title: "Bignum",
-    out: new Date("23 Sep 2024 12:00:00 EST"),
-    due: new Date("4 Oct 2024 22:00:00 EST"),
-    late: new Date("5 Oct 2024 22:00:00 EST"),
+    title: "Game",
+    out: new Date("11 Nov 2025 12:00:00 EST"),
+    due: new Date("6 Dec 2025 22:00:00 EST"),
+    late: new Date("7 Dec 2025 22:00:00 EST"),
     link: "hi.com",
     source: "hi.com",
     gearup: "hi.com",
   },
   {
     title: "Rackette",
-    out: new Date("24 Oct 2024 12:00:00 EST"),
-    due: new Date("8 Nov 2024 22:00:00 EST"),
-    late: new Date("9 Nov 2024 22:00:00 EST"),
+    out: new Date("24 Oct 2025 12:00:00 EST"),
+    due: new Date("8 Nov 2025 22:00:00 EST"),
+    late: new Date("9 Nov 2025 22:00:00 EST"),
     link: "",
     source: "",
     gearup: "",
   },
   {
-    title: "Game",
-    out: new Date("11 Nov 2024 12:00:00 EST"),
-    due: new Date("6 Dec 2024 22:00:00 EST"),
-    late: new Date("7 Dec 2024 22:00:00 EST"),
+    title: "Bignum",
+    out: new Date("4 Aug 2025 12:00:00 EST"),
+    due: new Date("4 Oct 2025 22:00:00 EST"),
+    late: new Date("5 Oct 2025 22:00:00 EST"),
     link: "hi.com",
     source: "hi.com",
     gearup: "hi.com",
@@ -235,9 +235,13 @@ function formatDate(date: Date, opts: Intl.DateTimeFormatOptions) {
 export default function Assignments() {
   const now = new Date();
 
-  const currLab = labs.filter((lab) => now >= lab.out).at(-1);
-  const currHw = homeworks.filter((hw) => now >= hw.out).at(-1);
-  const currProj = projects.filter((proj) => now >= proj.out).at(-1);
+  const availableLabs = labs.filter((lab) => now >= lab.out);
+  const availableHomeworks = homeworks.filter((hw) => now >= hw.out);
+  const availableProjects = projects.filter((proj) => now >= proj.out);
+
+  const currLab = availableLabs[0];
+  const currHw = availableHomeworks[0];
+  const currProj = availableProjects[0];
 
   return (
     <div className="page-content">
@@ -248,8 +252,9 @@ export default function Assignments() {
         {currLab ? (
           <div className="card">
             <a className="card-title" href={currLab.link || "#"}>
-              <h4>{currLab.title}</h4>
+              <h3>{currLab.title}</h3>
             </a>
+            <hr />
             <div className="assignment-card-line">
               <b>Released:&nbsp;</b>
               <span className="card-out">
@@ -263,13 +268,16 @@ export default function Assignments() {
               </span>
             </div>
             <div className="source-slide">
+              {currLab.link ? (
+                <a className="slide" href={currLab.link}>
+                  <b>Link</b>
+                </a>
+              ) : null}
               {currLab.slide ? (
                 <a className="slide" href={currLab.slide}>
                   <b>Slides</b>
                 </a>
-              ) : (
-                <p>Hi</p>
-              )}
+              ) : null}
               {currLab.source ? (
                 <a className="setup" href={currLab.source}>
                   <b>Setup</b>
@@ -283,8 +291,9 @@ export default function Assignments() {
         {currHw ? (
           <div className="card">
             <a className="card-title" href={currHw.link || "#"}>
-              <h4>{currHw.title}</h4>
+              <h3>{currHw.title}</h3>
             </a>
+            <hr />
             <div className="assignment-card-line">
               <b>Released:&nbsp;</b>
               <span className="card-out">
@@ -298,6 +307,11 @@ export default function Assignments() {
               </span>
             </div>
             <div className="source-slide">
+              {currLab.link ? (
+                <a className="slide" href={currLab.link}>
+                  <b>Link</b>
+                </a>
+              ) : null}
               {currHw.source ? (
                 <a className="setup" href={currHw.source}>
                   <b>Setup</b>
@@ -311,8 +325,9 @@ export default function Assignments() {
         {currProj ? (
           <div className="card">
             <a className="card-title" href={currProj.link || "#"}>
-              <h4>{currProj.title}</h4>
+              <h3>{currProj.title}</h3>
             </a>
+            <hr />
             <div className="assignment-card-line">
               <b>Released:&nbsp;</b>
               <span className="card-out">
@@ -326,6 +341,11 @@ export default function Assignments() {
               </span>
             </div>
             <div className="source-slide">
+              {currLab.link ? (
+                <a className="slide" href={currLab.link}>
+                  <b>Link</b>
+                </a>
+              ) : null}
               {currProj.gearup ? (
                 <a className="Gearup" href={currProj.gearup}>
                   <b>Slides</b>
@@ -353,7 +373,7 @@ export default function Assignments() {
           </tr>
         </thead>
         <tbody>
-          {homeworks.map((hw) => (
+          {availableHomeworks.map((hw) => (
             <tr key={hw.title}>
               <td>
                 {hw.link ? (
@@ -381,7 +401,7 @@ export default function Assignments() {
           </tr>
         </thead>
         <tbody>
-          {labs.map((lab) => (
+          {availableLabs.map((lab) => (
             <tr key={lab.title}>
               <td>
                 {lab.link ? (
@@ -410,7 +430,7 @@ export default function Assignments() {
           </tr>
         </thead>
         <tbody>
-          {projects.map((proj) => (
+          {availableProjects.map((proj) => (
             <tr key={proj.title}>
               <td>
                 {proj.link ? (
