@@ -84,7 +84,7 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "red delicious",
   },
   {
-    name: "T",
+    name: "Taha",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
