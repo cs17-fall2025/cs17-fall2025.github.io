@@ -9,8 +9,8 @@ interface NoteData {
 const notesData: NoteData[] = [
   {
     date: "9/3: Welcome",
-    slidesUrl: "hi.com",
-    notesUrl: "hi.com",
+    slidesUrl: "#",
+    notesUrl: "#",
   },
 ];
 

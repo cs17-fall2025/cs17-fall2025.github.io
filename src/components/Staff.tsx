@@ -16,12 +16,12 @@ const staffMembers: StaffMember[] = [
     name: "Spike",
     pronouns: "he/him",
     location: "Berkeley, CA",
-    bio: "I grew up in Berkeley, CA. I co-developed CS 17 in the late nineties. My research addresses algorithms for problems in graphs, e.g. the traveling-salesman problem. Last summer, I worked at Amazon on optimization algorithms. I previously worked at Lyft, where my code is used to process driver location data. I'm into rock climbing and slacklining.",
+    bio: "I'm Spike!",
     img: apple,
     favoriteApple: "honeycrisp",
   },
   {
-    name: "TA",
+    name: "Skylar",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
@@ -30,7 +30,7 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "red delicious",
   },
   {
-    name: "TA",
+    name: "Julie",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
@@ -39,7 +39,7 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "red delicious",
   },
   {
-    name: "TA",
+    name: "Daphne",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
@@ -48,7 +48,7 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "red delicious",
   },
   {
-    name: "TA",
+    name: "Jiayi",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
@@ -57,7 +57,7 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "red delicious",
   },
   {
-    name: "TA",
+    name: "Olver",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
@@ -66,7 +66,7 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "red delicious",
   },
   {
-    name: "TA",
+    name: "Ramesh",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
@@ -75,7 +75,7 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "red delicious",
   },
   {
-    name: "TA",
+    name: "Sophia",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
@@ -84,7 +84,7 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "red delicious",
   },
   {
-    name: "TA",
+    name: "T",
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",

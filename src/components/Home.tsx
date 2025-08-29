@@ -18,11 +18,21 @@ export default function Labs() {
       <div>
         <h3>Useful Links</h3>
         <div className="useful-links">
-          <button className="useful-links-btn">Syllabus</button>
-          <button className="useful-links-btn">EdStem</button>
-          <button className="useful-links-btn">Gradescope</button>
-          <button className="useful-links-btn">Hours</button>
-          <button className="useful-links-btn">RePlay</button>
+          <a
+            className="useful-links-btn"
+            href="https://docs.google.com/document/d/1GtksfSOpsYO5ZrPZWnWGeNF-wlyGrqLCks4iBqg2ark/edit?usp=sharing"
+          >
+            Syllabus
+          </a>
+          <a
+            className="useful-links-btn"
+            href="https://edstem.org/us/courses/85060/discussion"
+          >
+            EdStem
+          </a>
+          <a className="useful-links-btn">Gradescope</a>
+          <a className="useful-links-btn">Hours</a>
+          <a className="useful-links-btn">RePlay</a>
         </div>
       </div>
     </div>

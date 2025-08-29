@@ -20,9 +20,9 @@ const labs = [
     title: "Lab 11: Sort",
     out: new Date("10 Nov 2025 14:00:00 EST"),
     due: new Date("17 Nov 2025 13:59:00 EST"),
-    link: "hi.com",
-    slide: "hi.com",
-    source: "hi.com",
+    link: "#",
+    slide: "#",
+    source: "#",
   },
   {
     /* update handout */
@@ -109,9 +109,9 @@ const labs = [
     title: "Lab 1: Setup",
     out: new Date("28 Aug 2025 14:00:00 EST"),
     due: new Date("15 Sep 2025 13:59:00 EST"),
-    link: "hi.com",
-    slide: "hi.com",
-    source: "hi.com",
+    link: "#",
+    slide: "#",
+    source: "#",
   },
 ];
 
@@ -121,8 +121,8 @@ const homeworks = [
     out: new Date("14 Nov 2025 12:00:00 EST"),
     due: new Date("20 Nov 2025 22:00:00 EST"),
     late: new Date("21 Nov 2025 22:00:00 EST"),
-    link: "hi.com",
-    source: "hi.com",
+    link: "#",
+    source: "#",
   },
   {
     title: "HW 9: Trees, Trees, ...and Lists",
@@ -193,8 +193,8 @@ const homeworks = [
     out: new Date("4 Aug 2025 15:30:00 EST"),
     due: new Date("11 Sep 2025 22:00:00 EST"),
     late: new Date("12 Sep 2025 22:00:00 EST"),
-    link: "hi.com",
-    source: "hi.com",
+    link: "#",
+    source: "#",
   },
 ];
 
@@ -204,9 +204,9 @@ const projects = [
     out: new Date("11 Nov 2025 12:00:00 EST"),
     due: new Date("6 Dec 2025 22:00:00 EST"),
     late: new Date("7 Dec 2025 22:00:00 EST"),
-    link: "hi.com",
-    source: "hi.com",
-    gearup: "hi.com",
+    link: "#",
+    source: "#",
+    gearup: "#",
   },
   {
     title: "Rackette",
@@ -222,9 +222,9 @@ const projects = [
     out: new Date("4 Aug 2025 12:00:00 EST"),
     due: new Date("4 Oct 2025 22:00:00 EST"),
     late: new Date("5 Oct 2025 22:00:00 EST"),
-    link: "hi.com",
-    source: "hi.com",
-    gearup: "hi.com",
+    link: "#",
+    source: "#",
+    gearup: "#",
   },
 ];
 
