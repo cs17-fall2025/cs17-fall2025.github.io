@@ -13,11 +13,28 @@ export default function Labs() {
           come to TA hours or Prof. Spike's office hours. We're all here to
           help!
         </p>
+        <p>
+          Fill in this{" "}
+          <b>
+            <u>
+              <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfdXhPdlLde_Dur9zUDt9CU7Tx5djqAeug1MA8H4ZfWMBeURw/viewform?usp=pp_url&entry.738272555=Fall+2028+or+Spring+2029&pli=1">
+                form
+              </a>
+            </u>
+          </b>{" "}
+          if you want to be on a waitlist to enroll in CSCI0170.
+        </p>
       </div>
       <hr></hr>
       <div>
         <h3>Useful Links</h3>
         <div className="useful-links">
+          <a
+            className="useful-links-btn"
+            href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfdXhPdlLde_Dur9zUDt9CU7Tx5djqAeug1MA8H4ZfWMBeURw/viewform?usp=pp_url&entry.738272555=Fall+2028+or+Spring+2029&pli=1"
+          >
+            Waitlist Form
+          </a>
           <a
             className="useful-links-btn"
             href="https://docs.google.com/document/d/1GtksfSOpsYO5ZrPZWnWGeNF-wlyGrqLCks4iBqg2ark/edit?usp=sharing"
