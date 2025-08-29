@@ -90,7 +90,7 @@ const staffMembers: StaffMember[] = [
     location: "Newton, MA",
     bio: "Hi everyone! I'm a senior studying APMA-CS. In my free time you can find me playing piano & guitar, reading, and solving the NYT Spelling Bee.",
     img: apple,
-    favoriteApple: "red delicious",
+    favoriteApple: "Red delicious",
   },
 ];
 
