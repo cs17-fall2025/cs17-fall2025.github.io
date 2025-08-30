@@ -262,10 +262,11 @@ table tr a{
   display: flex;
   flex-direction: column;
   width: 30%;
-  height: 90%;
+  max-height: 50rem;
   background-color: var(--brown2);
   color: white;
-  margin-left: 20px;
+  padding: 1rem;
+  margin-left: 1rem;
   align-items: center;
   justify-content: center;
 }
@@ -283,12 +284,11 @@ table tr a{
 
 .staff-feature h3 {
   font-weight: normal;
-  margin-top: 5px;
+  margin-top: 0.5rem;
   margin-bottom: 0;
 }
 
 .staff-feature h4 {
-  margin: 0;
   font-weight: normal;
 }
 
@@ -361,17 +361,6 @@ table tr a{
 
 /* =============================== */
 /* Notes */
-
-.classes-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
-}
-
-.recent-classes, .upcoming-classes {
-    width: 48%;
-}
 
 .class-box {
     background-color: var(--brown2);

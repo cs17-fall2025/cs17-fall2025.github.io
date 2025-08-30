@@ -65,33 +65,6 @@ const NotesPage: React.FC = () => {
     <>
       <div className="page-content">
         <h1>Notes</h1>
-        <div className="classes-container">
-          <div className="recent-classes">
-            <h3>Recent Classes</h3>
-            {recentNotes.map((note, index) => (
-              <a
-                key={index}
-                href={note.notesUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="class-box">
-                  {note.date.replace(/:.*/, "")}:{" "}
-                  {note.date.split(":")[1].trim()}
-                </div>
-              </a>
-            ))}
-          </div>
-          <div className="upcoming-classes">
-            <h3>Upcoming Classes</h3>
-            {upcomingClasses.map((upcoming, index) => (
-              <div key={index} className="class-box">
-                {upcoming.date}
-              </div>
-            ))}
-          </div>
-        </div>
-        <h3>Notes</h3>
         <NotesTable notes={notesData} />
       </div>
     </>
