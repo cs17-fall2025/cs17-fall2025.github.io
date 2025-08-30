@@ -392,3 +392,42 @@ table tr a{
     margin-bottom: 0;
 }
 
+/* =============================== */
+/* Resources */
+.resource-div{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.resource-column{
+    min-width: 20rem; 
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top:0;
+}
+.resource-column a{
+    text-decoration: none;
+    color: white;
+}
+.resource-column p{
+    font-weight: bold;
+}
+
+.resource-box {
+    margin: auto; 
+    width: 90%; 
+    background-color: var(--brown2);
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.15s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+.resource-box:hover {
+  transform: scale(1.07);
+}
+
+

@@ -34,7 +34,7 @@ const staffMembers: StaffMember[] = [
     role: "HTA | jwang702",
     pronouns: "she/her",
     location: "Newton, MA",
-    bio: "Hi everyone! I'm a senior studying APMA-CS. In my free time you can find me playing piano & guitar, reading, and solving the NYT Spelling Bee.",
+    bio: "Hello! I'm a junior studying computer science. I love drawing, crocheting, and going on long walks. I'm also a big coffee enthusiast and enjoy exploring cafes around campus. Looking forward to a good semester!",
     img: apple,
     favoriteApple: "red delicious",
   },
