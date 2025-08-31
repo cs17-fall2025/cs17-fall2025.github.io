@@ -1,5 +1,14 @@
 import React, { useState } from "react";
 import apple from "../assets/apple.png";
+import daphne from "../assets/staff-images/daphne.jpg";
+import jiayi from "../assets/staff-images/jiayi.jpg";
+import julie from "../assets/staff-images/julie.jpg";
+import oliver from "../assets/staff-images/oliver.jpg";
+import ramesh from "../assets/staff-images/ramesh.jpg";
+import skylar from "../assets/staff-images/skylar.jpg";
+import sophia from "../assets/staff-images/sophia.jpg";
+import spike from "../assets/staff-images/spike.jpg";
+import taha from "../assets/staff-images/taha.jpg";
 
 interface StaffMember {
   name: string;
@@ -17,7 +26,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "he/him",
     location: "Barrington, RI",
     bio: "I started in Math and drifted to CS many years ago. I've been at Brown long enough that I might have had your parents as students. My area of research has mostly been graphics, but in recent years I've been learning about proof assistants (tools for doing math with computers). ",
-    img: apple,
+    img: spike,
     favoriteApple: "Wickson",
   },
   {
@@ -26,7 +35,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "they/them",
     location: "Madison, NJ / Orlando, FL (?)",
     bio: "Hi everyone!! I'm a senior studying Computational Biology with a healthy dose of Lit Arts. When I'm not thinking about ReasonML, you can catch me playing banjo, reading Moby Dick, quilting, or doomscrolling on Facebook Marketplace. Super excited to meet you all :)",
-    img: apple,
+    img: skylar,
     favoriteApple: "Obvious choice. Wickson",
   },
   {
@@ -35,7 +44,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "she/her",
     location: "Newton, MA",
     bio: "Hello! I'm a junior studying computer science. I love drawing, crocheting, and going on long walks. I'm also a big coffee enthusiast and enjoy exploring cafes around campus. Looking forward to a good semester!",
-    img: apple,
+    img: julie,
     favoriteApple: "Lady Alice",
   },
   {
@@ -44,7 +53,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "she/her",
     location: "Westchester, NY",
     bio: "Hi guys, I'm a junior studying English and APMA-CS! I'm really into writing, reading (let me know if you have any recs!), watching obscure video essays, and listening to LE SSERAFIM. Really looking forward to meeting everyone :)",
-    img: apple,
+    img: daphne,
     favoriteApple: "Belle d'Août",
   },
   {
@@ -53,7 +62,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "she/they",
     location: "Ningbo, China",
     bio: "Hi! I’m a sophomore from Ningbo, China studying Math-CS and IAPA/Engineering (still deciding!). I enjoy caffeine, hyperpop, long walks through busy streets, and plank challenges. Excited to meet yall!:)",
-    img: apple,
+    img: jiayi,
     favoriteApple: "Granny Smith",
   },
   {
@@ -62,7 +71,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "he/him",
     location: "Chevy Chase, MD",
     bio: "Hey y’all! I’m really excited to have the chance to be a TA for CS17 this year. I’m originally from Chevy Chase, MD and I’ve spent a good amount of time in Vermont and North Carolina. Outside of being a TA, I’m on the Brownian Motion Ultimate Frisbee team and love riding my bike around campus. I can’t wait to meet everyone!",
-    img: apple,
+    img: oliver,
     favoriteApple: "Reinette Clochard of the de Parthenay variety, of course",
   },
   {
@@ -71,7 +80,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "he/him",
     location: "Miami, FL",
     bio: "",
-    img: apple,
+    img: ramesh,
     favoriteApple: "Honeycrisp",
   },
   {
@@ -80,7 +89,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "she/her",
     location: "New York, NY",
     bio: "Hi! I'm a sophomore from NYC studying APMA-CS. I love cats, skiing, taiko, and grinding Beli. Looking forward to meeting you!",
-    img: apple,
+    img: sophia,
     favoriteApple: "Winter Banana Apple",
   },
   {
@@ -89,7 +98,7 @@ const staffMembers: StaffMember[] = [
     pronouns: "he/him",
     location: "Singapore",
     bio: "",
-    img: apple,
+    img: taha,
     favoriteApple:
       "have very little information with niche apple varieties :( probably honeycrisp",
   },
