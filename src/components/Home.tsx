@@ -1,12 +1,11 @@
 import React from "react";
-import cover from "../assets/cover.png";
-import cover2 from "../assets/cover2.png";
+import cover from "../assets/cs17cover.gif";
 
 export default function Labs() {
   return (
     <div className="page-content">
       <div>
-        <img src={cover2} className="cover-image" alt="CS17 Cover" />
+        <img src={cover} className="cover-image" alt="CS17 Cover" />
         <h2>Welcome to CS17!</h2>
         <p>
           CS17 (CSCI 0170) is an intro computer science class at Brown

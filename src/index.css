@@ -7,12 +7,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --cream1: #fdf6de;
-  --cream2: #f3d6b6;
+  --cream2: #f3deb6;
   --brown: #93441f;
-  --brown2: #93441f32;
-  --brown2: #93441f32;
-  --brown3: #93441f19;
-  --green1: #7d9941;
+  --brown2: #9c621232;
+  --brown3: #93571f19;
+  --green1: #8a9941;
 }
 
 a { 

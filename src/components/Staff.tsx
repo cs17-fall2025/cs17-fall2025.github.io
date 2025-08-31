@@ -15,10 +15,10 @@ const staffMembers: StaffMember[] = [
   {
     name: "Spike",
     pronouns: "he/him",
-    location: "Berkeley, CA",
-    bio: "I'm Spike!",
+    location: "Barrington, RI",
+    bio: "I started in Math and drifted to CS many years ago. I've been at Brown long enough that I might have had your parents as students. My area of research has mostly been graphics, but in recent years I've been learning about proof assistants (tools for doing math with computers). ",
     img: apple,
-    favoriteApple: "honeycrisp",
+    favoriteApple: "Wickson",
   },
   {
     name: "Skylar",
@@ -36,7 +36,7 @@ const staffMembers: StaffMember[] = [
     location: "Newton, MA",
     bio: "Hello! I'm a junior studying computer science. I love drawing, crocheting, and going on long walks. I'm also a big coffee enthusiast and enjoy exploring cafes around campus. Looking forward to a good semester!",
     img: apple,
-    favoriteApple: "red delicious",
+    favoriteApple: "Lady Alice",
   },
   {
     name: "Daphne",
