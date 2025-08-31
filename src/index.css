@@ -51,6 +51,9 @@ body {
 
 /* Home ===============================*/
 
+.cover-image{ 
+  width: 100%;
+}
 .useful-links {
   display: flex;
   flex-wrap: wrap;

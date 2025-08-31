@@ -1,8 +1,12 @@
 import React from "react";
+import cover from "../assets/cover.png";
+import cover2 from "../assets/cover2.png";
+
 export default function Labs() {
   return (
     <div className="page-content">
       <div>
+        <img src={cover2} className="cover-image" alt="CS17 Cover" />
         <h2>Welcome to CS17!</h2>
         <p>
           CS17 (CSCI 0170) is an intro computer science class at Brown
@@ -10,8 +14,7 @@ export default function Labs() {
           want to make a welcoming environment for everyone who wants to learn
           CS — fill out our anonymous feedback form to let us know if we can do
           anything better! If you have any questions on content, post on Ed,
-          come to TA hours or Prof. Spike's office hours. We're all here to
-          help!
+          come to TA hours or Spike's office hours. We're all here to help!
         </p>
         <p>
           Fill in this{" "}
