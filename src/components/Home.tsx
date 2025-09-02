@@ -6,7 +6,7 @@ export default function Labs() {
     <div className="page-content">
       <div>
         <img src={cover} className="cover-image" alt="CS17 Cover" />
-        <h2>Welcome to CS17!</h2>
+        <h2>Welcome to CS17! 🍎</h2>
         <p>
           CS17 (CSCI 0170) is an intro computer science class at Brown
           University — emphasis on intro! We take your ideas very seriously and
@@ -49,9 +49,18 @@ export default function Labs() {
           >
             EdStem
           </a>
-          <a className="useful-links-btn">Gradescope</a>
-          <a className="useful-links-btn">Hours</a>
-          <a className="useful-links-btn">RePlay</a>
+          <a
+            className="useful-links-btn"
+            href="https://www.gradescope.com/courses/1078762"
+          >
+            Gradescope
+          </a>
+          <a className="useful-links-btn" href="https://hours.cs.brown.edu/">
+            Hours
+          </a>
+          <a className="useful-links-btn" href="https://csci017.cs.brown.edu/">
+            RePlay
+          </a>
         </div>
       </div>
     </div>

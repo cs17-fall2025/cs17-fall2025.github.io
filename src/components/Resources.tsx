@@ -15,7 +15,7 @@ export default function Resources() {
           <a href="#">
             <div className="resource-box">Design recipe</div>
           </a>
-          <a href="#">
+          <a href="https://adamapples.blogspot.com/">
             <div className="resource-box">Apples</div>
           </a>
         </div>
