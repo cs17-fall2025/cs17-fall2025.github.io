@@ -107,7 +107,7 @@ const labs = [
   },
   {
     title: "Lab 1: Setup",
-    out: new Date("28 Aug 2025 14:00:00 EST"),
+    out: new Date("8 Sep 2025 14:00:00 EST"),
     due: new Date("15 Sep 2025 13:59:00 EST"),
     link: "#",
     slide: "#",
@@ -190,9 +190,9 @@ const homeworks = [
   },
   {
     title: "HW 1: Warmup",
-    out: new Date("4 Aug 2025 15:30:00 EST"),
-    due: new Date("11 Sep 2025 22:00:00 EST"),
-    late: new Date("12 Sep 2025 22:00:00 EST"),
+    out: new Date("2 Sep 2025 08:28:00 EST"),
+    due: new Date("6 Sep 2025 22:00:00 EST"),
+    late: new Date("9 Sep 2025 22:00:00 EST"),
     link: "#",
     source: "#",
   },
@@ -219,7 +219,7 @@ const projects = [
   },
   {
     title: "Bignum",
-    out: new Date("4 Aug 2025 12:00:00 EST"),
+    out: new Date("20 Sep 2025 12:00:00 EST"),
     due: new Date("4 Oct 2025 22:00:00 EST"),
     late: new Date("5 Oct 2025 22:00:00 EST"),
     link: "#",
@@ -268,17 +268,17 @@ export default function Assignments() {
               </span>
             </div>
             <div className="source-slide">
-              {currLab.link ? (
+              {currLab && currLab.link ? (
                 <a className="slide" href={currLab.link}>
                   <b>Link</b>
                 </a>
               ) : null}
-              {currLab.slide ? (
+              {currLab && currLab.slide ? (
                 <a className="slide" href={currLab.slide}>
                   <b>Slides</b>
                 </a>
               ) : null}
-              {currLab.source ? (
+              {currLab && currLab.source ? (
                 <a className="setup" href={currLab.source}>
                   <b>Setup</b>
                 </a>
@@ -307,12 +307,12 @@ export default function Assignments() {
               </span>
             </div>
             <div className="source-slide">
-              {currLab.link ? (
-                <a className="slide" href={currLab.link}>
+              {currHw && currHw.link ? (
+                <a className="slide" href={currHw.link}>
                   <b>Link</b>
                 </a>
               ) : null}
-              {currHw.source ? (
+              {currHw && currHw.source ? (
                 <a className="setup" href={currHw.source}>
                   <b>Setup</b>
                 </a>
@@ -341,17 +341,17 @@ export default function Assignments() {
               </span>
             </div>
             <div className="source-slide">
-              {currLab.link ? (
-                <a className="slide" href={currLab.link}>
+              {currProj && currProj.link ? (
+                <a className="slide" href={currProj.link}>
                   <b>Link</b>
                 </a>
               ) : null}
-              {currProj.gearup ? (
+              {currProj && currProj.gearup ? (
                 <a className="Gearup" href={currProj.gearup}>
                   <b>Slides</b>
                 </a>
               ) : null}
-              {currProj.source ? (
+              {currProj && currProj.source ? (
                 <a className="setup" href={currProj.source}>
                   <b>Setup</b>
                 </a>

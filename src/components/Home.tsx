@@ -62,6 +62,14 @@ export default function Labs() {
             RePlay
           </a>
         </div>
+        <hr></hr>
+        <div>
+          <h3>Calendar</h3>
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=c_8b58741d65ed249db50a44814b59495fa392335549c3d6cdca402f9081462fb9%40group.calendar.google.com&ctz=America%2FNew_York"
+            className="calendar"
+          ></iframe>
+        </div>
       </div>
     </div>
   );

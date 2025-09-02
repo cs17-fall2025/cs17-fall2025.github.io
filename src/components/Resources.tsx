@@ -62,15 +62,12 @@ export default function Resources() {
           </a>
         </div>
       </div>
-      <h1>Calendar</h1>
-      TBA
-      {/* <div id="calendar-container">
-          <iframe
-            src="https://calendar.google.com/calendar/embed?src=c_0db874e8f21894ea36adae30d77bc6584c5ff8ef7038145752cfaa0601b1f246%40group.calendar.google.com&ctz=America%2FNew_York"
-            width="800"
-            height="600"
-          ></iframe>
-        </div> */}
+      <h2>Calendar</h2>
+      <p>Contains info on assignments, office hours, and labs.</p>
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=c_8b58741d65ed249db50a44814b59495fa392335549c3d6cdca402f9081462fb9%40group.calendar.google.com&ctz=America%2FNew_York"
+        className="calendar"
+      ></iframe>
     </div>
   );
 }
