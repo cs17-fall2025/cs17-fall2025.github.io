@@ -101,7 +101,7 @@ const staffMembers: StaffMember[] = [
     role: "UTA",
     pronouns: "he/him",
     location: "Singapore",
-    bio: "",
+    bio: "Hi! I'm a junior studying APMA-CS from Singapore. I like playing badminton, failing NYT games and reading random wikipedia articles. Super excited to get know all of you this semester!",
     img: taha,
     favoriteApple:
       "have very little information with niche apple varieties :( probably honeycrisp",
