@@ -48,7 +48,7 @@ body {
   justify-content: center;
 }
 
-/* Home ===============================*/
+/* Home */
 
 .cover-image{ 
   width: 100%;
@@ -75,7 +75,7 @@ body {
   transform: scale(1.07);
 }
 
-/* NAV BAR ===============================*/
+/* Nav Bar */
 
 .navbar {
     display: flex; 
@@ -157,9 +157,8 @@ body {
     justify-content: flex-start;
   }
 }
-/*=======================================*/
 
-/* ASSIGNMENTS PAGE =======================================*/
+/* Assignments */
 
 table{
     width:100%;
@@ -247,9 +246,7 @@ table tr a{
     transform: scale(1.07);
 }
 
-/*=======================================*/
-
-/* STAFF PAGE =======================================*/
+/* Staff */
 
 .staff-body {
   display: flex;
@@ -364,7 +361,6 @@ table tr a{
   }
 }
 
-/* =============================== */
 /* Notes */
 
 .class-box {
@@ -386,8 +382,8 @@ table tr a{
     margin-bottom: 0;
 }
 
-/* =============================== */
 /* Resources */
+
 .resource-div{
     display:flex;
     flex-wrap: wrap;
