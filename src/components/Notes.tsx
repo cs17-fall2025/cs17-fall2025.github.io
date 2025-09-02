@@ -9,8 +9,8 @@ interface NoteData {
 const notesData: NoteData[] = [
   {
     date: "9/3: Welcome",
-    slidesUrl: "#",
-    notesUrl: "#",
+    slidesUrl: "",
+    notesUrl: "",
   },
 ];
 
@@ -30,22 +30,14 @@ const NotesTable: React.FC<{ notes: NoteData[] }> = ({ notes }) => {
             <td>{note.date}</td>
             <td>
               {note.slidesUrl && (
-                <a
-                  href={note.slidesUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={note.slidesUrl} target="_blank">
                   Slides
                 </a>
               )}
             </td>
             <td>
               {note.notesUrl && (
-                <a
-                  href={note.notesUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={note.notesUrl} target="_blank">
                   Notes
                 </a>
               )}

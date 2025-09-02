@@ -14,7 +14,10 @@ export default function Labs() {
           CS — fill out our{" "}
           <b>
             <u>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSePgiTgkH0PmWIXtyEvw5_9HSkTFCyuwyAnUhpuI-Pe0EhDZg/viewform">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSePgiTgkH0PmWIXtyEvw5_9HSkTFCyuwyAnUhpuI-Pe0EhDZg/viewform"
+                target="_blank"
+              >
                 anonymous feedback form
               </a>
             </u>
@@ -27,7 +30,10 @@ export default function Labs() {
           Fill in this{" "}
           <b>
             <u>
-              <a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfdXhPdlLde_Dur9zUDt9CU7Tx5djqAeug1MA8H4ZfWMBeURw/viewform?usp=pp_url&entry.738272555=Fall+2028+or+Spring+2029&pli=1">
+              <a
+                href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfdXhPdlLde_Dur9zUDt9CU7Tx5djqAeug1MA8H4ZfWMBeURw/viewform?usp=pp_url&entry.738272555=Fall+2028+or+Spring+2029&pli=1"
+                target="_blank"
+              >
                 form
               </a>
             </u>
@@ -42,31 +48,43 @@ export default function Labs() {
           <a
             className="useful-links-btn"
             href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfdXhPdlLde_Dur9zUDt9CU7Tx5djqAeug1MA8H4ZfWMBeURw/viewform?usp=pp_url&entry.738272555=Fall+2028+or+Spring+2029&pli=1"
+            target="_blank"
           >
             Waitlist Form
           </a>
           <a
             className="useful-links-btn"
             href="https://docs.google.com/document/d/1GtksfSOpsYO5ZrPZWnWGeNF-wlyGrqLCks4iBqg2ark/edit?usp=sharing"
+            target="_blank"
           >
             Syllabus
           </a>
           <a
             className="useful-links-btn"
             href="https://edstem.org/us/courses/85060/discussion"
+            target="_blank"
           >
             EdStem
           </a>
           <a
             className="useful-links-btn"
             href="https://www.gradescope.com/courses/1078762"
+            target="_blank"
           >
             Gradescope
           </a>
-          <a className="useful-links-btn" href="https://hours.cs.brown.edu/">
+          <a
+            className="useful-links-btn"
+            href="https://hours.cs.brown.edu/"
+            target="_blank"
+          >
             Hours
           </a>
-          <a className="useful-links-btn" href="https://csci017.cs.brown.edu/">
+          <a
+            className="useful-links-btn"
+            href="https://csci017.cs.brown.edu/"
+            target="_blank"
+          >
             RePlay
           </a>
           <a
