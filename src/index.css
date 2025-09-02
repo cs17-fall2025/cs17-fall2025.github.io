@@ -267,7 +267,7 @@ table tr a{
   max-height: 50rem;
   background-color: var(--brown2);
   color: white;
-  padding: 1rem;
+  padding: 1rem 2rem;
   margin-left: 1rem;
   align-items: center;
   justify-content: center;
@@ -291,13 +291,16 @@ table tr a{
 }
 
 .staff-feature h4 {
+  text-align: center;
   font-weight: normal;
+  margin-top: 1em;
+  margin-bottom: 0em;
 }
 
 .staff-feature p {
   font-size: smaller;
   text-align: center;
-  margin: 0 15px 10px 15px;
+  margin-top: 1rem;
 }
 
 .staff-all {

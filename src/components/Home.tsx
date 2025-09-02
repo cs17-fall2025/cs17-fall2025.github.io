@@ -61,6 +61,15 @@ export default function Labs() {
           <a className="useful-links-btn" href="https://csci017.cs.brown.edu/">
             RePlay
           </a>
+          <a
+            className="useful-links-btn"
+            href="mailto:cs0170headtas@lists.brown.edu"
+          >
+            Head TA Email
+          </a>
+          <a className="useful-links-btn" href="mailto:jfh@cs.brown.edu">
+            Professor Email
+          </a>
         </div>
         <hr></hr>
         <div>

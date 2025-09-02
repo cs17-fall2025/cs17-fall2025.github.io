@@ -18,11 +18,13 @@ interface StaffMember {
   bio: string;
   img: string;
   favoriteApple: string;
+  email?: string;
 }
 
 const staffMembers: StaffMember[] = [
   {
     name: "Spike",
+    email: "jfh@cs.brown.edu",
     pronouns: "he/him",
     location: "Barrington, RI",
     bio: "I started in Math and drifted to CS many years ago. I've been at Brown long enough that I might have had your parents as students. My area of research has mostly been graphics, but in recent years I've been learning about proof assistants (tools for doing math with computers). ",
@@ -31,7 +33,8 @@ const staffMembers: StaffMember[] = [
   },
   {
     name: "Skylar",
-    role: "HTA | jwang702",
+    email: "cs0170headtas@lists.brown.edu",
+    role: "HTA",
     pronouns: "they/them",
     location: "Madison, NJ / Orlando, FL (?)",
     bio: "Hi everyone!! I'm a senior studying Computational Biology with a healthy dose of Lit Arts. When I'm not thinking about ReasonML, you can catch me playing banjo, reading Moby Dick, quilting, or doomscrolling on Facebook Marketplace. Super excited to meet you all :)",
@@ -40,7 +43,8 @@ const staffMembers: StaffMember[] = [
   },
   {
     name: "Julie",
-    role: "HTA | jwang702",
+    email: "cs0170headtas@lists.brown.edu",
+    role: "HTA",
     pronouns: "she/her",
     location: "Newton, MA",
     bio: "Hello! I'm a junior studying computer science. I love drawing, crocheting, and going on long walks. I'm also a big coffee enthusiast and enjoy exploring cafes around campus. Looking forward to a good semester!",
@@ -49,7 +53,7 @@ const staffMembers: StaffMember[] = [
   },
   {
     name: "Daphne",
-    role: "UTA | dcao7",
+    role: "UTA",
     pronouns: "she/her",
     location: "Westchester, NY",
     bio: "Hi guys, I'm a junior studying English and APMA-CS! I'm really into writing, reading (let me know if you have any recs!), watching obscure video essays, and listening to LE SSERAFIM. Really looking forward to meeting everyone :)",
@@ -58,7 +62,7 @@ const staffMembers: StaffMember[] = [
   },
   {
     name: "Jiayi",
-    role: "UTA | jwu343",
+    role: "UTA",
     pronouns: "she/they",
     location: "Ningbo, China",
     bio: "Hi! I’m a sophomore from Ningbo, China studying Math-CS and IAPA/Engineering (still deciding!). I enjoy caffeine, hyperpop, long walks through busy streets, and plank challenges. Excited to meet yall!:)",
@@ -67,7 +71,7 @@ const staffMembers: StaffMember[] = [
   },
   {
     name: "Oliver",
-    role: "UTA | okahn1",
+    role: "UTA",
     pronouns: "he/him",
     location: "Chevy Chase, MD",
     bio: "Hey y’all! I’m really excited to have the chance to be a TA for CS17 this year. I’m originally from Chevy Chase, MD and I’ve spent a good amount of time in Vermont and North Carolina. Outside of being a TA, I’m on the Brownian Motion Ultimate Frisbee team and love riding my bike around campus. I can’t wait to meet everyone!",
@@ -76,7 +80,7 @@ const staffMembers: StaffMember[] = [
   },
   {
     name: "Ramesh",
-    role: "UTA | rpererao",
+    role: "UTA",
     pronouns: "he/him",
     location: "Miami, FL",
     bio: "",
@@ -85,7 +89,7 @@ const staffMembers: StaffMember[] = [
   },
   {
     name: "Sophia",
-    role: "UTA | swang484",
+    role: "UTA",
     pronouns: "she/her",
     location: "New York, NY",
     bio: "Hi! I'm a sophomore from NYC studying APMA-CS. I love cats, skiing, taiko, and grinding Beli. Looking forward to meeting you!",
@@ -94,7 +98,7 @@ const staffMembers: StaffMember[] = [
   },
   {
     name: "Taha",
-    role: "UTA | tebrahim",
+    role: "UTA",
     pronouns: "he/him",
     location: "Singapore",
     bio: "",
@@ -114,8 +118,11 @@ export default function Staff() {
         <h1>{featured.name}</h1>
         {featured.role && <h3>{featured.role}</h3>}
         <h4>
-          {featured.pronouns} | {featured.location}
+          <i>
+            {featured.pronouns} | {featured.location}
+          </i>
         </h4>
+        {featured.email && <h5>{featured.email}</h5>}
         <p>{featured.bio}</p>
         <p>
           <b>Favorite apple: </b>
