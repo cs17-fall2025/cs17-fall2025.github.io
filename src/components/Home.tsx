@@ -68,7 +68,7 @@ export default function Labs() {
             Head TA Email
           </a>
           <a className="useful-links-btn" href="mailto:jfh@cs.brown.edu">
-            Professor Email
+            Spike's Email
           </a>
         </div>
         <hr></hr>
