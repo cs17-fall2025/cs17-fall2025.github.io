@@ -10,10 +10,13 @@ export default function Resources() {
             <div className="resource-box">Syllabus</div>
           </a>
           <a href="https://drive.google.com/file/d/1N1qzB7ObO8fr3NWit9w5kthb8I2RJFSp/view?usp=sharing">
-            <div className="resource-box">Common mistakes</div>
+            <div className="resource-box">Common Mistakes</div>
           </a>
           <a href="https://drive.google.com/file/d/1vTgvHLmsQuEZBCJ7tsHKgsDKdoiLt8Xe/view?usp=sharing">
-            <div className="resource-box">Design recipe</div>
+            <div className="resource-box">Design Recipe</div>
+          </a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSePgiTgkH0PmWIXtyEvw5_9HSkTFCyuwyAnUhpuI-Pe0EhDZg/viewform">
+            <div className="resource-box">Anon Feedback Form</div>
           </a>
           <a href="https://adamapples.blogspot.com/">
             <div className="resource-box">Apples</div>

@@ -11,9 +11,17 @@ export default function Labs() {
           CS17 (CSCI 0170) is an intro computer science class at Brown
           University — emphasis on intro! We take your ideas very seriously and
           want to make a welcoming environment for everyone who wants to learn
-          CS — fill out our anonymous feedback form to let us know if we can do
-          anything better! If you have any questions on content, post on Ed,
-          come to TA hours or Spike's office hours. We're all here to help!
+          CS — fill out our{" "}
+          <b>
+            <u>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSePgiTgkH0PmWIXtyEvw5_9HSkTFCyuwyAnUhpuI-Pe0EhDZg/viewform">
+                anonymous feedback form
+              </a>
+            </u>
+          </b>{" "}
+          to let us know if we can do anything better! If you have any questions
+          on content, post on Ed, come to TA hours or Spike's office hours.
+          We're all here to help!
         </p>
         <p>
           Fill in this{" "}
