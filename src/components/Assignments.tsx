@@ -190,9 +190,9 @@ const homeworks = [
   },
   {
     title: "HW 1: Warmup",
-    out: new Date("2 Sep 2025 08:28:00 EST"),
-    due: new Date("6 Sep 2025 22:00:00 EST"),
-    late: new Date("9 Sep 2025 22:00:00 EST"),
+    out: new Date("3 Sep 2025 11:00:00 EST"),
+    due: new Date("10 Sep 2025 22:00:00 EST"),
+    late: new Date("11 Sep 2025 22:00:00 EST"),
     link: "#",
     source: "#",
   },
