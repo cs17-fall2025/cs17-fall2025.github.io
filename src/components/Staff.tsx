@@ -83,7 +83,7 @@ const staffMembers: StaffMember[] = [
     role: "UTA",
     pronouns: "he/him",
     location: "Miami, FL",
-    bio: "",
+    bio: "Hi y'all! I'm a junior concentrating in astrophysics and CS. I was born in Miami and then moved to New York when I was thirteen. Outside of being your TA, I'm a coordinator for the Astronomy Club and president of Charcuterie Club! I'm super excited to get to know you all!",
     img: ramesh,
     favoriteApple: "Honeycrisp",
   },
