@@ -9,8 +9,7 @@ interface NoteData {
 const notesData: NoteData[] = [
   {
     date: "9/3: Welcome",
-    slidesUrl:
-      "https://docs.google.com/presentation/d/1skloaze3krgpx2QEQ52PFPLN1YTjJSyX/edit?usp=sharing&ouid=106249266650853110385&rtpof=true&sd=true",
+    slidesUrl: "",
     notesUrl: "",
   },
 ];
