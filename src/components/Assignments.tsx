@@ -182,7 +182,7 @@ const homeworks = [
   },
   {
     title: "HW 2: Procedures",
-    out: new Date("9 Sep 2025 19:00:00 EST"),
+    out: new Date("11 Sep 2025 10:00:00 EST"),
     due: new Date("18 Sep 2025 22:00:00 EST"),
     late: new Date("19 Sep 2025 22:00:00 EST"),
     link: "",
@@ -190,11 +190,11 @@ const homeworks = [
   },
   {
     title: "HW 1: Warmup",
-    out: new Date("10 Sep 2025 11:00:00 EST"),
+    out: new Date("3 Sep 2025 15:00:00 EST"),
     due: new Date("10 Sep 2025 22:00:00 EST"),
     late: new Date("11 Sep 2025 22:00:00 EST"),
-    link: "#",
-    source: "#",
+    link: "https://drive.google.com/file/d/1x-gdW5Qo4bs6loamGQV0-1jk2a5QzjhP/view?usp=sharing",
+    source: "",
   },
 ];
 
