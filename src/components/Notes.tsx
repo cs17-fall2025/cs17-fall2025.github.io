@@ -8,6 +8,12 @@ interface NoteData {
 
 const notesData: NoteData[] = [
   {
+    date: "9/5: Arithmetic, Types and Keywords",
+    slidesUrl:
+      "https://docs.google.com/presentation/d/16EAzqV9q47hqk7xdEWSGmU5amyF0lNQD/edit?usp=sharing&ouid=106249266650853110385&rtpof=true&sd=true",
+    notesUrl: "",
+  },
+  {
     date: "9/3: Welcome",
     slidesUrl:
       "https://docs.google.com/presentation/d/1skloaze3krgpx2QEQ52PFPLN1YTjJSyX/edit?slide=id.p1#slide=id.p1",
