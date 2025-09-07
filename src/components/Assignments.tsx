@@ -108,7 +108,7 @@ const labs = [
   {
     title: "Lab 1: Setup",
     out: new Date("7 Sep 2025 12:45:00 EST"),
-    due: new Date("14 Sep 2025 13:59:00 EST"),
+    due: new Date("14 Sep 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/17oOZJbiA4zrC-vu-g7Y-w2T7LIsF0Fer/view?usp=sharing",
     slide:
       "https://docs.google.com/presentation/d/1mwsMYrznrFUu_vIK8-e0Mrxb1rEVR8yFlY5lkhUMDdY/edit?usp=sharing",
