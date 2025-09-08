@@ -96,6 +96,12 @@ export default function Labs() {
           <a className="useful-links-btn" href="mailto:jfh@cs.brown.edu">
             Spike's Email
           </a>
+          <a
+            className="useful-links-btn"
+            href="https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22732825af-14e0-48cf-95bc-b34700f500d2%22"
+          >
+            Lecture Recordings
+          </a>
         </div>
         <hr></hr>
         <div>

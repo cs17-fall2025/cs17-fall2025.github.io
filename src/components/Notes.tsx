@@ -64,6 +64,17 @@ const NotesPage: React.FC = () => {
     <>
       <div className="page-content">
         <h1>Notes</h1>
+        <p>
+          Lecture recordings can be found{" "}
+          <b>
+            <u>
+              <a href="https://brown.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%22732825af-14e0-48cf-95bc-b34700f500d2%22">
+                here
+              </a>
+            </u>
+          </b>
+          .
+        </p>
         <NotesTable notes={notesData} />
       </div>
     </>
