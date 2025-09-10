@@ -82,6 +82,10 @@ const NotesPage: React.FC = () => {
           </b>
           .
         </p>
+        <p>
+          Note that the typed notes are adapted from past years and might not
+          100% match what was said in lecture.
+        </p>
         <NotesTable notes={notesData} />
       </div>
     </>
