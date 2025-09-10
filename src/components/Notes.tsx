@@ -2,11 +2,20 @@ import React, { useState, useEffect } from "react";
 
 interface NoteData {
   date: string;
+  codeUrl?: string;
   slidesUrl?: string;
   notesUrl?: string;
 }
 
 const notesData: NoteData[] = [
+  {
+    date: "9/10: Expressions and Syntax",
+    codeUrl:
+      "https://drive.google.com/drive/folders/1U7aSlp3-CPQa6BRvc8txOGb1TDYoTNX8?usp=sharing",
+    slidesUrl:
+      "https://docs.google.com/presentation/d/1hM-8thr9Vi3XzLlJXT-vEUTbXBAVvgOc/edit?usp=drive_link&ouid=106249266650853110385&rtpof=true&sd=true",
+    notesUrl: "",
+  },
   {
     date: "9/8: Expressions and Syntax",
     slidesUrl:
@@ -35,6 +44,7 @@ const NotesTable: React.FC<{ notes: NoteData[] }> = ({ notes }) => {
         <tr>
           <th>Class</th>
           <th>Slides</th>
+          <th>Code</th>
           <th>Notes</th>
         </tr>
       </thead>
@@ -46,6 +56,13 @@ const NotesTable: React.FC<{ notes: NoteData[] }> = ({ notes }) => {
               {note.slidesUrl && (
                 <a href={note.slidesUrl} target="_blank">
                   Slides
+                </a>
+              )}
+            </td>
+            <td>
+              {note.codeUrl && (
+                <a href={note.codeUrl} target="_blank">
+                  Code
                 </a>
               )}
             </td>
