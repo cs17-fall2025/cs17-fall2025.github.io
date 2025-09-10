@@ -15,96 +15,96 @@ const date_formatting_2: Intl.DateTimeFormatOptions = {
 };
 
 const labs = [
-  {
-    /* update handout */
-    title: "Lab 11: Sort",
-    out: new Date("10 Nov 2025 14:00:00 EST"),
-    due: new Date("17 Nov 2025 13:59:00 EST"),
-    link: "#",
-    slide: "#",
-    source: "#",
-  },
-  {
-    /* update handout */
-    title: "Lab 10: Game",
-    out: new Date("3 Nov 2025 14:00:00 EST"),
-    due: new Date("10 Nov 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 9: ADTs",
-    out: new Date("27 Oct 2025 14:00:00 EST"),
-    due: new Date("3 Nov 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 8: Environments",
-    out: new Date("20 Oct 2025 14:00:00 EST"),
-    due: new Date("27 Oct 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 7: Debugging",
-    out: new Date("13 Oct 2025 14:00:00 EST"),
-    due: new Date("20 Oct 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 6: Reason",
-    out: new Date("6 Oct 2025 14:00:00 EST"),
-    due: new Date("13 Oct 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 5: Search",
-    out: new Date("29 Sep 2025 14:00:00 EST"),
-    due: new Date("6 Oct 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 4: Natural Numbers",
-    out: new Date("22 Sep 2025 14:00:00 EST"),
-    due: new Date("29 Sep 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 3: Recursion",
-    out: new Date("22 Sep 2025 14:00:00 EST"),
-    due: new Date("29 Sep 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
-  {
-    /* update handout */
-    title: "Lab 2: Racket",
-    out: new Date("15 Sep 2025 14:00:00 EST"),
-    due: new Date("22 Sep 2025 13:59:00 EST"),
-    link: "",
-    slide: "",
-    source: "",
-  },
+  // {
+  //   /* update handout */
+  //   title: "Lab 11: Sort",
+  //   out: new Date("10 Nov 2025 14:00:00 EST"),
+  //   due: new Date("17 Nov 2025 13:59:00 EST"),
+  //   link: "#",
+  //   slide: "#",
+  //   source: "#",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 10: Game",
+  //   out: new Date("3 Nov 2025 14:00:00 EST"),
+  //   due: new Date("10 Nov 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 9: ADTs",
+  //   out: new Date("27 Oct 2025 14:00:00 EST"),
+  //   due: new Date("3 Nov 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 8: Environments",
+  //   out: new Date("20 Oct 2025 14:00:00 EST"),
+  //   due: new Date("27 Oct 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 7: Debugging",
+  //   out: new Date("13 Oct 2025 14:00:00 EST"),
+  //   due: new Date("20 Oct 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 6: Reason",
+  //   out: new Date("6 Oct 2025 14:00:00 EST"),
+  //   due: new Date("13 Oct 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 5: Search",
+  //   out: new Date("29 Sep 2025 14:00:00 EST"),
+  //   due: new Date("6 Oct 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 4: Natural Numbers",
+  //   out: new Date("22 Sep 2025 14:00:00 EST"),
+  //   due: new Date("29 Sep 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 3: Recursion",
+  //   out: new Date("22 Sep 2025 14:00:00 EST"),
+  //   due: new Date("29 Sep 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
+  // {
+  //   /* update handout */
+  //   title: "Lab 2: Racket",
+  //   out: new Date("15 Sep 2025 14:00:00 EST"),
+  //   due: new Date("22 Sep 2025 13:59:00 EST"),
+  //   link: "",
+  //   slide: "",
+  //   source: "",
+  // },
   {
     title: "Lab 1: Setup",
     out: new Date("7 Sep 2025 12:45:00 EST"),
@@ -117,78 +117,78 @@ const labs = [
 ];
 
 const homeworks = [
-  {
-    title: "HW 10: Game Tools",
-    out: new Date("14 Nov 2025 12:00:00 EST"),
-    due: new Date("20 Nov 2025 22:00:00 EST"),
-    late: new Date("21 Nov 2025 22:00:00 EST"),
-    link: "#",
-    source: "#",
-  },
-  {
-    title: "HW 9: Trees, Trees, ...and Lists",
-    out: new Date("7 Nov 2025 12:00:00 EST"),
-    due: new Date("13 Nov 2025 22:00:00 EST"),
-    late: new Date("14 Nov 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 8: ADTs",
-    out: new Date("24 Oct 2025 12:00:00 EST"),
-    due: new Date("30 Oct 2025 22:00:00 EST"),
-    late: new Date("31 Oct 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 7: Rackettecita",
-    out: new Date("17 Oct 2025 12:00:00 EST"),
-    due: new Date("23 Oct 2025 22:00:00 EST"),
-    late: new Date("24 Oct 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 6: K-Subsets and Matrices",
-    out: new Date("10 Oct 2025 12:00:00 EST"),
-    due: new Date("16 Oct 2025 22:00:00 EST"),
-    late: new Date("17 Oct 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 5: More HOPs and Subsets",
-    out: new Date("3 Oct 2025 12:00:00 EST"),
-    due: new Date("9 Oct 2025 22:00:00 EST"),
-    late: new Date("10 Oct 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 4: More Recursion",
-    out: new Date("26 Sep 2025 12:00:00 EST"),
-    due: new Date("2 Oct 2025 22:00:00 EST"),
-    late: new Date("3 Oct 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 3: Recursion",
-    out: new Date("19 Sep 2025 12:00:00 EST"),
-    due: new Date("25 Sep 2025 22:00:00 EST"),
-    late: new Date("26 Sep 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
-  {
-    title: "HW 2: Procedures",
-    out: new Date("11 Sep 2025 10:00:00 EST"),
-    due: new Date("18 Sep 2025 22:00:00 EST"),
-    late: new Date("19 Sep 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-  },
+  // {
+  //   title: "HW 10: Game Tools",
+  //   out: new Date("14 Nov 2025 12:00:00 EST"),
+  //   due: new Date("20 Nov 2025 22:00:00 EST"),
+  //   late: new Date("21 Nov 2025 22:00:00 EST"),
+  //   link: "#",
+  //   source: "#",
+  // },
+  // {
+  //   title: "HW 9: Trees, Trees, ...and Lists",
+  //   out: new Date("7 Nov 2025 12:00:00 EST"),
+  //   due: new Date("13 Nov 2025 22:00:00 EST"),
+  //   late: new Date("14 Nov 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  // },
+  // {
+  //   title: "HW 8: ADTs",
+  //   out: new Date("24 Oct 2025 12:00:00 EST"),
+  //   due: new Date("30 Oct 2025 22:00:00 EST"),
+  //   late: new Date("31 Oct 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  // },
+  // {
+  //   title: "HW 7: Rackettecita",
+  //   out: new Date("17 Oct 2025 12:00:00 EST"),
+  //   due: new Date("23 Oct 2025 22:00:00 EST"),
+  //   late: new Date("24 Oct 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  // },
+  // {
+  //   title: "HW 6: K-Subsets and Matrices",
+  //   out: new Date("10 Oct 2025 12:00:00 EST"),
+  //   due: new Date("16 Oct 2025 22:00:00 EST"),
+  //   late: new Date("17 Oct 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  // },
+  // {
+  //   title: "HW 5: More HOPs and Subsets",
+  //   out: new Date("3 Oct 2025 12:00:00 EST"),
+  //   due: new Date("9 Oct 2025 22:00:00 EST"),
+  //   late: new Date("10 Oct 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  // },
+  // {
+  //   title: "HW 4: More Recursion",
+  //   out: new Date("26 Sep 2025 12:00:00 EST"),
+  //   due: new Date("2 Oct 2025 22:00:00 EST"),
+  //   late: new Date("3 Oct 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  // },
+  // {
+  //   title: "HW 3: Recursion",
+  //   out: new Date("19 Sep 2025 12:00:00 EST"),
+  //   due: new Date("25 Sep 2025 22:00:00 EST"),
+  //   late: new Date("26 Sep 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  // },
+  // {
+  //   title: "HW 2: Procedures",
+  //   out: new Date("11 Sep 2025 10:00:00 EST"),
+  //   due: new Date("18 Sep 2025 22:00:00 EST"),
+  //   late: new Date("19 Sep 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  // },
   {
     title: "HW 1: Warmup",
     out: new Date("3 Sep 2025 15:00:00 EST"),
@@ -200,33 +200,33 @@ const homeworks = [
 ];
 
 const projects = [
-  {
-    title: "Game",
-    out: new Date("11 Nov 2025 12:00:00 EST"),
-    due: new Date("6 Dec 2025 22:00:00 EST"),
-    late: new Date("7 Dec 2025 22:00:00 EST"),
-    link: "#",
-    source: "#",
-    gearup: "#",
-  },
-  {
-    title: "Rackette",
-    out: new Date("24 Oct 2025 12:00:00 EST"),
-    due: new Date("8 Nov 2025 22:00:00 EST"),
-    late: new Date("9 Nov 2025 22:00:00 EST"),
-    link: "",
-    source: "",
-    gearup: "",
-  },
-  {
-    title: "Bignum",
-    out: new Date("20 Sep 2025 12:00:00 EST"),
-    due: new Date("4 Oct 2025 22:00:00 EST"),
-    late: new Date("5 Oct 2025 22:00:00 EST"),
-    link: "#",
-    source: "#",
-    gearup: "#",
-  },
+  // {
+  //   title: "Game",
+  //   out: new Date("11 Nov 2025 12:00:00 EST"),
+  //   due: new Date("6 Dec 2025 22:00:00 EST"),
+  //   late: new Date("7 Dec 2025 22:00:00 EST"),
+  //   link: "#",
+  //   source: "#",
+  //   gearup: "#",
+  // },
+  // {
+  //   title: "Rackette",
+  //   out: new Date("24 Oct 2025 12:00:00 EST"),
+  //   due: new Date("8 Nov 2025 22:00:00 EST"),
+  //   late: new Date("9 Nov 2025 22:00:00 EST"),
+  //   link: "",
+  //   source: "",
+  //   gearup: "",
+  // },
+  // {
+  //   title: "Bignum",
+  //   out: new Date("20 Sep 2025 12:00:00 EST"),
+  //   due: new Date("4 Oct 2025 22:00:00 EST"),
+  //   late: new Date("5 Oct 2025 22:00:00 EST"),
+  //   link: "#",
+  //   source: "#",
+  //   gearup: "#",
+  // },
 ];
 
 function formatDate(date: Date, opts: Intl.DateTimeFormatOptions) {
