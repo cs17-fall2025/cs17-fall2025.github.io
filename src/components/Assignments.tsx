@@ -101,7 +101,7 @@ const labs = [
   //   title: "Lab 2: Racket",
   //   out: new Date("15 Sep 2025 14:00:00 EST"),
   //   due: new Date("22 Sep 2025 13:59:00 EST"),
-  //   link: "",
+  //   link: " ",
   //   slide: "",
   //   source: "",
   // },
