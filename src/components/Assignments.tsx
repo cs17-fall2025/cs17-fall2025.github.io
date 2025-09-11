@@ -181,14 +181,14 @@ const homeworks = [
   //   link: "",
   //   source: "",
   // },
-  // {
-  //   title: "HW 2: Procedures",
-  //   out: new Date("11 Sep 2025 10:00:00 EST"),
-  //   due: new Date("18 Sep 2025 22:00:00 EST"),
-  //   late: new Date("19 Sep 2025 22:00:00 EST"),
-  //   link: "",
-  //   source: "",
-  // },
+  {
+    title: "HW 2: Procedures",
+    out: new Date("11 Sep 2025 10:00:00 EST"),
+    due: new Date("17 Sep 2025 22:00:00 EST"),
+    late: new Date("18 Sep 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1W4Dww_G08uJsYgWnghPGYRfQTWv5RdBc/view?usp=sharing",
+    source: "",
+  },
   {
     title: "HW 1: Warmup",
     out: new Date("3 Sep 2025 15:00:00 EST"),
