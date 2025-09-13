@@ -9,6 +9,12 @@ interface NoteData {
 
 const notesData: NoteData[] = [
   {
+    date: "9/12: Rules and The Design Recipe",
+    slidesUrl:
+      "https://docs.google.com/presentation/d/1TgTRPRmHWY0Z3AADt_hd1A7oGSKXQieh/edit?usp=drive_link&ouid=106249266650853110385&rtpof=true&sd=true",
+    notesUrl: "",
+  },
+  {
     date: "9/10: Expressions and Syntax",
     codeUrl:
       "https://drive.google.com/drive/folders/1U7aSlp3-CPQa6BRvc8txOGb1TDYoTNX8?usp=sharing",
