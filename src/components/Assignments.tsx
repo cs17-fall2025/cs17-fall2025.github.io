@@ -103,7 +103,8 @@ const labs = [
     link: "https://drive.google.com/file/d/1iAtPHGcI7lzA4IhFs2n8L4aOl8sMenhH/view?usp=sharing",
     slide:
       "https://docs.google.com/presentation/d/1mdpY2uANDq0BwJ0BqEyj8GdGSnHyGDiKuKyIvQozxVM/edit?usp=sharing",
-    source: "",
+    source:
+      "https://drive.google.com/drive/u/1/folders/1mvgO0FWVQb0xWKfA61Uei47HYOAfW57e",
   },
   {
     title: "Lab 1: Setup",
