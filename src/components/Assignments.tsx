@@ -96,15 +96,15 @@ const labs = [
   //   slide: "",
   //   source: "",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 2: Racket",
-  //   out: new Date("15 Sep 2025 14:00:00 EST"),
-  //   due: new Date("22 Sep 2025 13:59:00 EST"),
-  //   link: " ",
-  //   slide: "",
-  //   source: "",
-  // },
+  {
+    title: "Lab 2: Racket",
+    out: new Date("14 Sep 2025 10:00:00 EST"),
+    due: new Date("21 Sep 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1iAtPHGcI7lzA4IhFs2n8L4aOl8sMenhH/view?usp=sharing",
+    slide:
+      "https://docs.google.com/presentation/d/1mdpY2uANDq0BwJ0BqEyj8GdGSnHyGDiKuKyIvQozxVM/edit?usp=sharing",
+    source: "",
+  },
   {
     title: "Lab 1: Setup",
     out: new Date("7 Sep 2025 12:45:00 EST"),
