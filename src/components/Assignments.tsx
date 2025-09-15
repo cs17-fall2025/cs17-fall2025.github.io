@@ -104,7 +104,7 @@ const labs = [
     slide:
       "https://docs.google.com/presentation/d/1mdpY2uANDq0BwJ0BqEyj8GdGSnHyGDiKuKyIvQozxVM/edit?usp=sharing",
     source:
-      "https://drive.google.com/drive/u/1/folders/1mvgO0FWVQb0xWKfA61Uei47HYOAfW57e",
+      "https://drive.google.com/drive/folders/1DoCsSfjPFl7W6Uo6oIIld3BN86YYNcPw?usp=sharing",
   },
   {
     title: "Lab 1: Setup",
