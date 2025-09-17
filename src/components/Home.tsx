@@ -1,5 +1,5 @@
 import React from "react";
-import cover from "../assets/cs17cover.gif";
+import cover from "../assets/cs17cover-optimized.webp";
 
 export default function Labs() {
   return (
@@ -109,6 +109,7 @@ export default function Labs() {
           <iframe
             src="https://calendar.google.com/calendar/embed?src=c_8b58741d65ed249db50a44814b59495fa392335549c3d6cdca402f9081462fb9%40group.calendar.google.com&ctz=America%2FNew_York"
             className="calendar"
+            loading="lazy"
           ></iframe>
         </div>
       </div>
