@@ -186,7 +186,7 @@ const homeworks = [
     title: "HW 3a: Recursion, Part 1",
     out: new Date("17 Sep 2025 00:00:00 EST"),
     due: new Date("21 Sep 2025 22:00:00 EST"),
-    late: new Date("21 Sep 2025 22:00:00 EST"),
+    late: new Date("22 Sep 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/1UTkNBO__TBHD6egr-DFl6Y4B9EUnYMYe/view?usp=sharing",
     source: "",
   },
