@@ -227,15 +227,16 @@ const projects = [
   //   source: "",
   //   gearup: "",
   // },
-  // {
-  //   title: "Bignum",
-  //   out: new Date("20 Sep 2025 12:00:00 EST"),
-  //   due: new Date("4 Oct 2025 22:00:00 EST"),
-  //   late: new Date("5 Oct 2025 22:00:00 EST"),
-  //   link: "#",
-  //   source: "#",
-  //   gearup: "#",
-  // },
+  {
+    title: "Bignum",
+    out: new Date("18 Sep 2025 10:00:00 EST"),
+    due: new Date("3 Oct 2025 22:00:00 EST"),
+    late: new Date("6 Oct 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1Ml5oYO9_7IZFvjlXtUNLhLiUOKV6glVm/view?usp=sharing",
+    source:
+      "https://drive.google.com/drive/folders/1fDjATU9CkGl-fsib9vCBLPCTRzWCmGBz?usp=sharing",
+    gearup: "",
+  },
 ];
 
 function formatDate(date: Date, opts: Intl.DateTimeFormatOptions) {
