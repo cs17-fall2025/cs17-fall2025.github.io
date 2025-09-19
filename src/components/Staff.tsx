@@ -5,10 +5,12 @@ import jiayi from "../assets/staff-images/jiayi.jpg";
 import julie from "../assets/staff-images/julie.jpg";
 import oliver from "../assets/staff-images/oliver.jpg";
 import ramesh from "../assets/staff-images/ramesh.jpg";
-import skylar from "../assets/staff-images/skylar.jpg";
+import skylar from "../assets/staff-images/skylar.png";
 import sophia from "../assets/staff-images/sophia.jpg";
 import spike from "../assets/staff-images/spike.jpg";
 import taha from "../assets/staff-images/taha.jpg";
+import abby from "../assets/staff-images/abby.png";
+import nathan from "../assets/staff-images/nathan.png";
 
 interface StaffMember {
   name: string;
@@ -52,6 +54,16 @@ const staffMembers: StaffMember[] = [
     favoriteApple: "Lady Alice",
   },
   {
+    name: "Abby",
+    role: "UTA",
+    pronouns: "she/her",
+    location: "Abington, MA",
+    bio: "Hey everyone! I am a sophomore studying CS-Econ. I love reading, hiking, Monopoly Deal, cold brew, and delicious breakfast sandwiches. Looking forward to a great semester! :)",
+    img: abby,
+    favoriteApple: "Gala",
+  },
+
+  {
     name: "Daphne",
     role: "UTA",
     pronouns: "she/her",
@@ -68,6 +80,15 @@ const staffMembers: StaffMember[] = [
     bio: "Hi! I’m a sophomore from Ningbo, China studying Math-CS and IAPA/Engineering (still deciding!). I enjoy caffeine, hyperpop, long walks through busy streets, and plank challenges. Excited to meet yall!:)",
     img: jiayi,
     favoriteApple: "Granny Smith",
+  },
+  {
+    name: "Nathan",
+    role: "UTA",
+    pronouns: "he/him",
+    location: "St. Charles, Illinois",
+    bio: "Hey all! I'm a junior from the Chicago suburbs studying APMA-Econ. Outside of classes, I am a double bassist in the Brown University Orchestra and enjoy playing card games with friends. Looking forward to working with all of you!",
+    img: nathan,
+    favoriteApple: "Golden Delicious",
   },
   {
     name: "Oliver",
