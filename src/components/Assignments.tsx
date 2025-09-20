@@ -235,7 +235,8 @@ const projects = [
     link: "https://drive.google.com/file/d/1Ml5oYO9_7IZFvjlXtUNLhLiUOKV6glVm/view?usp=sharing",
     source:
       "https://drive.google.com/drive/folders/1fDjATU9CkGl-fsib9vCBLPCTRzWCmGBz?usp=sharing",
-    gearup: "",
+    gearup:
+      "https://drive.google.com/file/d/1sx_zfEcqHgY3cEUsEx9ZjL5Hh5y5ZWd4/view?usp=sharing",
   },
 ];
 
@@ -359,7 +360,7 @@ export default function Assignments() {
               ) : null}
               {currProj && currProj.gearup ? (
                 <a className="Gearup" href={currProj.gearup}>
-                  <b>Slides</b>
+                  <b>Gearup</b>
                 </a>
               ) : null}
               {currProj && currProj.source ? (
@@ -437,7 +438,7 @@ export default function Assignments() {
             <th>Out:</th>
             <th>In:</th>
             <th>Late:</th>
-            <th>Source:</th>
+            <th>Gearup:</th>
           </tr>
         </thead>
         <tbody>
