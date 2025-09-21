@@ -87,15 +87,16 @@ const labs = [
   //   slide: "",
   //   source: "",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 3: Recursion",
-  //   out: new Date("22 Sep 2025 14:00:00 EST"),
-  //   due: new Date("29 Sep 2025 13:59:00 EST"),
-  //   link: "",
-  //   slide: "",
-  //   source: "",
-  // },
+  {
+    /* update handout */
+    title: "Lab 3: Recursion",
+    out: new Date("21 Sep 2025 10:00:00 EST"),
+    due: new Date("28 Sep 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/18lx_6byViqggyd_8YKqj4hPove9jyVpc/view?usp=sharing",
+    slide:
+      "https://docs.google.com/presentation/d/18HaTBxZIB1HgJmTKsFuDqOI0vgtpNX52wEov-qSKn40/edit?usp=sharing",
+    source: "",
+  },
   {
     title: "Lab 2: Racket",
     out: new Date("14 Sep 2025 10:00:00 EST"),
