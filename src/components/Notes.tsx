@@ -44,7 +44,8 @@ const notesData: NoteData[] = [
     date: "9/8: Expressions and Syntax",
     slidesUrl:
       "https://docs.google.com/presentation/d/1zrfWZ3fd01EFiylujHc-822WVPLyVYIQ/edit?usp=sharing&ouid=106249266650853110385&rtpof=true&sd=true",
-    notesUrl: "",
+    notesUrl:
+      "https://drive.google.com/file/d/1b5oudHw_Wg3Tbx0NLMHWET04V770FKae/view?usp=sharing",
   },
   {
     date: "9/5: Arithmetic, Types and Keywords",
