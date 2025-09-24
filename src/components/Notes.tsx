@@ -9,6 +9,14 @@ interface NoteData {
 
 const notesData: NoteData[] = [
   {
+    date: "9/22: Why Diagrams Work & Two-argument recursion",
+    slidesUrl:
+      "https://docs.google.com/presentation/d/1souAHufHLO8LVZg1R0Lo8IJdcLK_tcPo/edit?slide=id.p1#slide=id.p1",
+    notesUrl: "",
+    codeUrl:
+      "https://drive.google.com/file/d/1a_WEayDTDDwi_xwFnEj8bJut1ktGTHOF/view?usp=sharing",
+  },
+  {
     date: "9/19: Recursion",
     slidesUrl:
       "https://docs.google.com/presentation/d/1-IBAJfszfLn_0AYVO-Xpw0F27EBoyIk1/edit?usp=sharing&ouid=106249266650853110385&rtpof=true&sd=true",
