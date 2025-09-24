@@ -167,14 +167,14 @@ const homeworks = [
   //   link: "",
   //   source: "",
   // },
-  // {
-  //   title: "HW 4: More Recursion",
-  //   out: new Date("26 Sep 2025 12:00:00 EST"),
-  //   due: new Date("2 Oct 2025 22:00:00 EST"),
-  //   late: new Date("3 Oct 2025 22:00:00 EST"),
-  //   link: "",
-  //   source: "",
-  // },
+  {
+    title: "HW 4: More Recursion",
+    out: new Date("24 Sep 2025 12:00:00 EST"),
+    due: new Date("1 Oct 2025 22:00:00 EST"),
+    late: new Date("2 Oct 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1bd0l_CAuMCcT3HRlAF-Ctb8QGg8iQly_/view?usp=sharing",
+    source: "",
+  },
   {
     title: "HW 3b: Recursion, Part 2",
     //out: new Date("17 Sep 2025 00:00:00 EST"),
