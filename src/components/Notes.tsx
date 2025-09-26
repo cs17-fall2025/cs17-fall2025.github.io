@@ -9,6 +9,12 @@ interface NoteData {
 
 const notesData: NoteData[] = [
   {
+    date: "9/26: Operation Counting (II), map, reversing a list ",
+    slidesUrl:
+      "https://docs.google.com/presentation/d/12DDadj8VFJTxi2588NYILtew31Z0H6TA/edit?usp=sharing&ouid=106249266650853110385&rtpof=true&sd=true",
+    notesUrl: "",
+  },
+  {
     date: "9/24: Operation Counting",
     slidesUrl:
       "https://docs.google.com/presentation/d/1957veMjI0GkaEQv3pFbjAkUCIgDOkD8M/edit?usp=sharing&ouid=106249266650853110385&rtpof=true&sd=true",
