@@ -78,17 +78,16 @@ const labs = [
   //   slide: "",
   //   source: "",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 4: Natural Numbers",
-  //   out: new Date("22 Sep 2025 14:00:00 EST"),
-  //   due: new Date("29 Sep 2025 13:59:00 EST"),
-  //   link: "",
-  //   slide: "",
-  //   source: "",
-  // },
   {
-    /* update handout */
+    title: "Lab 4: Natural Numbers",
+    out: new Date("28 Sep 2025 10:00:00 EST"),
+    due: new Date("5 Oct 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1keIbfofd1Mzuw8Ru7POeyVVMC9is1QBj/view?usp=sharing",
+    slide:
+      "https://docs.google.com/presentation/d/1TCsXJMjFEDsubgDGIVq4OrLoq1VirM9qwWLNhEuWlfE/edit?usp=drive_link",
+    source: "",
+  },
+  {
     title: "Lab 3: Recursion",
     out: new Date("21 Sep 2025 10:00:00 EST"),
     due: new Date("28 Sep 2025 22:00:00 EST"),
