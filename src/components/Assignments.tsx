@@ -161,7 +161,7 @@ const homeworks = [
   {
     title: "HW 5: More HOPs and Subsets",
     out: new Date("1 Oct 2025 12:00:00 EST"),
-    due: new Date("9 Oct 2025 22:00:00 EST"),
+    due: new Date("8 Oct 2025 22:00:00 EST"),
     late: new Date("9 Oct 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/1PP4rPYuIaKn1epRATuvGSe5ch7A4rXJs/view?usp=sharing",
     source: "https://drive.google.com/file/d/1Aoomnm8OH86Kh__Nb5ci2yI0zgMD8QzA/view?usp=sharing",
