@@ -17,7 +17,7 @@ const notesData: NoteData[] = [
   {
     date: "10/1: Operation Counting and Lambda",
     slidesUrl:
-      "https://docs.google.com/presentation/d/188zFPO0tGjNWsFL59onbY0P_ESxz30U0/edit?usp=sharing&ouid=106249266650853110385&rtpof=true&sd=true",
+      "https://drive.google.com/file/d/1x8TdfqaLejFYjo5q7EA3YfPWwYTKNZkd/view?usp=sharing",
     notesUrl: "",
   },
   {
