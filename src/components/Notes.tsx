@@ -56,7 +56,8 @@ const notesData: NoteData[] = [
     date: "9/12: Rules and The Design Recipe",
     slidesUrl:
       "https://docs.google.com/presentation/d/1TgTRPRmHWY0Z3AADt_hd1A7oGSKXQieh/edit?usp=drive_link&ouid=106249266650853110385&rtpof=true&sd=true",
-    notesUrl: "",
+    notesUrl:
+      "https://drive.google.com/file/d/1qUnAcuBWEReS-FHvEfGAorjOz9w8ua-N/view?usp=sharing",
   },
   {
     date: "9/10: Expressions and Syntax",
