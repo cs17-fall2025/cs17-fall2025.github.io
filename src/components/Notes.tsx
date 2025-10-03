@@ -65,7 +65,8 @@ const notesData: NoteData[] = [
       "https://drive.google.com/drive/folders/1U7aSlp3-CPQa6BRvc8txOGb1TDYoTNX8?usp=sharing",
     slidesUrl:
       "https://docs.google.com/presentation/d/1hM-8thr9Vi3XzLlJXT-vEUTbXBAVvgOc/edit?usp=drive_link&ouid=106249266650853110385&rtpof=true&sd=true",
-    notesUrl: "",
+    notesUrl:
+      "https://drive.google.com/file/d/1Nnqgi7dt4S3LRca6q3u6ilhKyxQbaRQt/view?usp=sharing",
   },
   {
     date: "9/8: Expressions and Syntax",
