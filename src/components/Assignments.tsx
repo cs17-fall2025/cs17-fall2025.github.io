@@ -69,15 +69,15 @@ const labs = [
   //   slide: "",
   //   source: "",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 5: Search",
-  //   out: new Date("29 Sep 2025 14:00:00 EST"),
-  //   due: new Date("6 Oct 2025 13:59:00 EST"),
-  //   link: "",
-  //   slide: "",
-  //   source: "",
-  // },
+  {
+    title: "Lab 5: Search",
+    out: new Date("Oct 5 2025 10:00:00 EST"),
+    due: new Date("12 Oct 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1nbc-l52U88lm4OZbXR5tX2D5Ul-iQ1Y7/view?usp=sharing",
+    slide:
+      "https://docs.google.com/presentation/d/1oL_kiXvmxGCzYnYttOwPVcIMIJrpj32TrROf2xk53Ug/edit?usp=sharing",
+    source: "",
+  },
   {
     title: "Lab 4: Natural Numbers",
     out: new Date("28 Sep 2025 10:00:00 EST"),
@@ -164,7 +164,8 @@ const homeworks = [
     due: new Date("8 Oct 2025 22:00:00 EST"),
     late: new Date("9 Oct 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/1PP4rPYuIaKn1epRATuvGSe5ch7A4rXJs/view?usp=sharing",
-    source: "https://drive.google.com/file/d/1Aoomnm8OH86Kh__Nb5ci2yI0zgMD8QzA/view?usp=sharing",
+    source:
+      "https://drive.google.com/file/d/1Aoomnm8OH86Kh__Nb5ci2yI0zgMD8QzA/view?usp=sharing",
   },
   {
     title: "HW 4: More Recursion",
