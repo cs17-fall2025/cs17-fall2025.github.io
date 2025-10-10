@@ -152,7 +152,7 @@ const homeworks = [
   // },
   {
     title: "HW 6: K-Subsets and Matrices",
-    out: new Date("10 Oct 2025 12:00:00 EST"),
+    out: new Date("10 Oct 2025 00:00:00 EST"),
     due: new Date("16 Oct 2025 22:00:00 EST"),
     late: new Date("17 Oct 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/1TA85-uqzhVflGYo7RNknBW0j1GyrLXeG/view?usp=sharing",
