@@ -33,6 +33,14 @@ export default function Resources() {
             </div>
           </a>
           <a
+            href="https://edstem.org/us/courses/85060/discussion/7135764"
+            target="_blank"
+          >
+            <div className="resource-box">
+              Allowed Built-In Procedures in Reason{" "}
+            </div>
+          </a>
+          <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSePgiTgkH0PmWIXtyEvw5_9HSkTFCyuwyAnUhpuI-Pe0EhDZg/viewform"
             target="_blank"
           >
