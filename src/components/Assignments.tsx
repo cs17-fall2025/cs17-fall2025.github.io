@@ -60,15 +60,15 @@ const labs = [
   //   slide: "",
   //   source: "",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 6: Reason",
-  //   out: new Date("6 Oct 2025 14:00:00 EST"),
-  //   due: new Date("13 Oct 2025 13:59:00 EST"),
-  //   link: "",
-  //   slide: "",
-  //   source: "",
-  // },
+  {
+    title: "Lab 6: Reason",
+    out: new Date("14 Oct 2025 10:00:00 EST"),
+    due: new Date("19 Oct 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1_9-CfEE5Dw636lwzDDWXPqNNTt_33wWz/view?usp=sharing",
+    slide:
+      "https://docs.google.com/presentation/d/11VRY5cqT9Tw_sQZ887d37fQt46tK2lWS2SlZq-UoqNc/edit?usp=sharing",
+    source: "",
+  },
   {
     title: "Lab 5: Search",
     out: new Date("Oct 5 2025 10:00:00 EST"),
@@ -156,7 +156,8 @@ const homeworks = [
     due: new Date("16 Oct 2025 22:00:00 EST"),
     late: new Date("17 Oct 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/1TA85-uqzhVflGYo7RNknBW0j1GyrLXeG/view?usp=sharing",
-    source: "https://drive.google.com/drive/folders/1oQaMtlQYSCCjENPqc-vcit69oFtV9coq?usp=sharing",
+    source:
+      "https://drive.google.com/drive/folders/1oQaMtlQYSCCjENPqc-vcit69oFtV9coq?usp=sharing",
   },
   {
     title: "HW 5: More HOPs and Subsets",
