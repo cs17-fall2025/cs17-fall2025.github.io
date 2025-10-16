@@ -385,6 +385,7 @@ export default function Assignments() {
             <th>Out:</th>
             <th>In:</th>
             <th>Late:</th>
+            <th>Setup:</th>
           </tr>
         </thead>
         <tbody>
@@ -400,6 +401,7 @@ export default function Assignments() {
               <td>{formatDate(hw.out, date_formatting_2)}</td>
               <td>{formatDate(hw.due, date_formatting)}</td>
               <td>{formatDate(hw.late, date_formatting)}</td>
+              <td>{hw.source ? <a href={hw.source}>Setup</a> : ""}</td>
             </tr>
           ))}
         </tbody>
