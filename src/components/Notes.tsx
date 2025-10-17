@@ -11,7 +11,7 @@ const notesData: NoteData[] = [
   {
     date: "10/17: Rackette Preview",
     slidesUrl:
-      "https://drive.google.com/drive/u/1/folders/1ZW1WJHt0QaKUysvsJc_0H0Saaj1PM7WZ",
+      "https://drive.google.com/file/d/1IJEp75LPKxQCrdXHEgYYeE-6pPjZqb0u/view?usp=sharing",
   },
   {
     date: "10/15: Even more ReasonML",
