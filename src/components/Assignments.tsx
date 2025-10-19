@@ -51,15 +51,17 @@ const labs = [
   //   slide: "",
   //   source: "",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 7: Debugging",
-  //   out: new Date("13 Oct 2025 14:00:00 EST"),
-  //   due: new Date("20 Oct 2025 13:59:00 EST"),
-  //   link: "",
-  //   slide: "",
-  //   source: "",
-  // },
+  {
+    /* update handout */
+    title: "Lab 7: Debugging",
+    out: new Date("19 Oct 2025 10:00:00 EST"),
+    due: new Date("26 Oct 2025 13:59:00 EST"),
+    link: "https://drive.google.com/file/d/1OhLRk8DbH7IwG0O6BEX9-dBiwQyIeg-H/view?usp=sharing",
+    slide:
+      "https://docs.google.com/presentation/d/1QSPypFNpXvYQSm9a9Wfgs_OE6C1aydhuZo4QhPcThvU/edit?usp=sharing",
+    source:
+      "https://drive.google.com/drive/folders/124n2g7In_STTKYIMHqmYbRxq8SA0kM2K?usp=sharing",
+  },
   {
     title: "Lab 6: Reason",
     out: new Date("14 Oct 2025 10:00:00 EST"),
