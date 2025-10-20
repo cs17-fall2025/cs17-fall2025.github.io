@@ -9,6 +9,11 @@ interface NoteData {
 
 const notesData: NoteData[] = [
   {
+    date: "10/20: The Truth about Closures",
+    slidesUrl:
+      "https://drive.google.com/file/d/1ZcQj0qefcAZYRZl7mXRty1GVtKtoAUta/view?usp=sharing",
+  },
+  {
     date: "10/17: Rackette Preview",
     slidesUrl:
       "https://drive.google.com/file/d/1IJEp75LPKxQCrdXHEgYYeE-6pPjZqb0u/view?usp=sharing",
