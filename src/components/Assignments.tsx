@@ -223,15 +223,16 @@ const projects = [
   //   source: "#",
   //   gearup: "#",
   // },
-  // {
-  //   title: "Rackette",
-  //   out: new Date("24 Oct 2025 12:00:00 EST"),
-  //   due: new Date("8 Nov 2025 22:00:00 EST"),
-  //   late: new Date("9 Nov 2025 22:00:00 EST"),
-  //   link: "",
-  //   source: "",
-  //   gearup: "",
-  // },
+  {
+    title: "Rackette",
+    out: new Date("23 Oct 2025 15:00:00 EST"),
+    due: new Date("7 Nov 2025 22:00:00 EST"),
+    late: new Date("8 Nov 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1S09UaFcMSw5EqBEpKWEJNzEHvnlXRRyU/view?usp=sharing",
+    source:
+      "https://drive.google.com/drive/folders/1ShSMHWjwlrbl6qhnsjB_xYAmUeu02oyh?usp=sharing",
+    gearup: "",
+  },
   {
     title: "Bignum",
     out: new Date("18 Sep 2025 10:00:00 EST"),
