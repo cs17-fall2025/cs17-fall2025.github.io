@@ -55,7 +55,7 @@ const labs = [
     /* update handout */
     title: "Lab 7: Debugging",
     out: new Date("19 Oct 2025 10:00:00 EST"),
-    due: new Date("26 Oct 2025 13:59:00 EST"),
+    due: new Date("26 Oct 2025 23:59:00 EST"),
     link: "https://drive.google.com/file/d/1OhLRk8DbH7IwG0O6BEX9-dBiwQyIeg-H/view?usp=sharing",
     slide:
       "https://docs.google.com/presentation/d/1QSPypFNpXvYQSm9a9Wfgs_OE6C1aydhuZo4QhPcThvU/edit?usp=sharing",
@@ -142,7 +142,8 @@ const homeworks = [
     due: new Date("29 Oct 2025 22:00:00 EST"),
     late: new Date("30 Oct 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/1STewhh8bAJDM-1u4VP2Fv1UzSjNrZcPH/view?usp=sharing",
-    source: "https://drive.google.com/file/d/1xACBCATwutq_HMJeJ_EweeVi55oXVKwh/view?usp=sharing",
+    source:
+      "https://drive.google.com/file/d/1xACBCATwutq_HMJeJ_EweeVi55oXVKwh/view?usp=sharing",
   },
   {
     title: "HW 7: Rackettecita",
