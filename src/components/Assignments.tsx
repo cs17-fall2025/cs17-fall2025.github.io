@@ -136,14 +136,14 @@ const homeworks = [
   //   link: "",
   //   source: "",
   // },
-  // {
-  //   title: "HW 8: ADTs",
-  //   out: new Date("24 Oct 2025 12:00:00 EST"),
-  //   due: new Date("30 Oct 2025 22:00:00 EST"),
-  //   late: new Date("31 Oct 2025 22:00:00 EST"),
-  //   link: "",
-  //   source: "",
-  // },
+  {
+    title: "HW 8: Analysis Refresher",
+    out: new Date("23 Oct 2025 00:00:00 EST"),
+    due: new Date("29 Oct 2025 22:00:00 EST"),
+    late: new Date("30 Oct 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1STewhh8bAJDM-1u4VP2Fv1UzSjNrZcPH/view?usp=sharing",
+    source: "",
+  },
   {
     title: "HW 7: Rackettecita",
     out: new Date("16 Oct 2025 00:00:00 EST"),
