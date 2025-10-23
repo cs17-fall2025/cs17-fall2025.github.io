@@ -142,7 +142,7 @@ const homeworks = [
     due: new Date("29 Oct 2025 22:00:00 EST"),
     late: new Date("30 Oct 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/1STewhh8bAJDM-1u4VP2Fv1UzSjNrZcPH/view?usp=sharing",
-    source: "",
+    source: "https://drive.google.com/file/d/1xACBCATwutq_HMJeJ_EweeVi55oXVKwh/view?usp=sharing",
   },
   {
     title: "HW 7: Rackettecita",
