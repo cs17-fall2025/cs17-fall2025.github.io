@@ -21,7 +21,7 @@ const notesData: NoteData[] = [
   {
     date: "10/20: The Truth about Closures",
     slidesUrl:
-      "https://drive.google.com/file/d/1ZcQj0qefcAZYRZl7mXRty1GVtKtoAUta/view?usp=sharing",
+      "https://drive.google.com/file/d/1xojy2XUvZoqy6R7XDrqSwwC2KlFf7KjD/view?usp=sharinghttps://drive.google.com/file/d/1xojy2XUvZoqy6R7XDrqSwwC2KlFf7KjD/view?usp=sharing",
   },
   {
     date: "10/17: Rackette Preview",
@@ -31,7 +31,7 @@ const notesData: NoteData[] = [
   {
     date: "10/15: Even more ReasonML",
     slidesUrl:
-      "https://drive.google.com/file/d/1fMhPWbKnRITguvIXNt3oafvWQOScGWWw/view?usp=sharing",
+      "https://drive.google.com/file/d/1Cb-fFoCRAxAIhjWdB3wzkE66rkUYzNiA/view?usp=sharing",
   },
   {
     date: "10/10: More ReasonML",
