@@ -227,8 +227,8 @@ const projects = [
   {
     title: "Rackette",
     out: new Date("23 Oct 2025 15:00:00 EST"),
-    due: new Date("7 Nov 2025 22:00:00 EST"),
-    late: new Date("8 Nov 2025 22:00:00 EST"),
+    due: new Date("7 Nov 2025 23:00:00 EST"),
+    late: new Date("8 Nov 2025 23:00:00 EST"),
     link: "https://drive.google.com/file/d/1S09UaFcMSw5EqBEpKWEJNzEHvnlXRRyU/view?usp=sharing",
     source:
       "https://drive.google.com/drive/folders/1ShSMHWjwlrbl6qhnsjB_xYAmUeu02oyh?usp=sharing",
