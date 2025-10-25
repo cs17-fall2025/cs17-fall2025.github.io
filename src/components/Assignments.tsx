@@ -232,7 +232,8 @@ const projects = [
     link: "https://drive.google.com/file/d/1S09UaFcMSw5EqBEpKWEJNzEHvnlXRRyU/view?usp=sharing",
     source:
       "https://drive.google.com/drive/folders/1ShSMHWjwlrbl6qhnsjB_xYAmUeu02oyh?usp=sharing",
-    gearup: "",
+    gearup:
+      "https://drive.google.com/drive/folders/1c2WeU1oNxAIYD-bu7eHE5tbePPBoHzGc?usp=sharing",
   },
   {
     title: "Bignum",
