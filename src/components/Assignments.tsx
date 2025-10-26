@@ -42,15 +42,17 @@ const labs = [
   //   slide: "",
   //   source: "",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 8: Environments",
-  //   out: new Date("20 Oct 2025 14:00:00 EST"),
-  //   due: new Date("27 Oct 2025 13:59:00 EST"),
-  //   link: "",
-  //   slide: "",
-  //   source: "",
-  // },
+  {
+    /* update handout */
+    title: "Lab 8: Environments",
+    out: new Date("26 Oct 2025 14:00:00 EST"),
+    due: new Date("3 Nov 2025 23:00:00 EST"),
+    link: "https://drive.google.com/file/d/1vHEgKyFMZ9kt9aLSKGVJLFjMZlrmNKso/view?usp=sharing",
+    slide:
+      "https://docs.google.com/presentation/d/1EH1e-pSyVcwBkBjv6ttp9Jr1zz9K4UXj1m27lJ6vNMM/edit?usp=sharing",
+    source:
+      "https://drive.google.com/drive/u/1/folders/1kFreByJXCuccWGrBi06zXLzuu2U9cWCr",
+  },
   {
     /* update handout */
     title: "Lab 7: Debugging",
