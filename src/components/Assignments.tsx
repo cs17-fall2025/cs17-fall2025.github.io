@@ -45,7 +45,7 @@ const labs = [
   {
     /* update handout */
     title: "Lab 8: Environments",
-    out: new Date("26 Oct 2025 14:00:00 EST"),
+    out: new Date("26 Oct 2025 10:00:00 EST"),
     due: new Date("3 Nov 2025 23:00:00 EST"),
     link: "https://drive.google.com/file/d/1vHEgKyFMZ9kt9aLSKGVJLFjMZlrmNKso/view?usp=sharing",
     slide:
