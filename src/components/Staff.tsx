@@ -11,7 +11,7 @@ import spike from "../assets/staff-images/spike.jpg";
 import taha from "../assets/staff-images/taha.jpg";
 import abby from "../assets/staff-images/abby.png";
 import nathan from "../assets/staff-images/nathan.png";
-import ellis from "../assets/staff-images/ellis.png";
+import ellis from "../assets/staff-images/ellis.jpg";
 
 interface StaffMember {
   name: string;
