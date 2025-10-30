@@ -130,14 +130,14 @@ const homeworks = [
   //   link: "#",
   //   source: "#",
   // },
-  // {
-  //   title: "HW 9: Trees, Trees, ...and Lists",
-  //   out: new Date("7 Nov 2025 12:00:00 EST"),
-  //   due: new Date("13 Nov 2025 22:00:00 EST"),
-  //   late: new Date("14 Nov 2025 22:00:00 EST"),
-  //   link: "",
-  //   source: "",
-  // },
+  {
+    title: "HW 9: Trees, Trees, ...and Lists",
+    out: new Date("7 Nov 2025 12:00:00 EST"),
+    due: new Date("13 Nov 2025 22:00:00 EST"),
+    late: new Date("14 Nov 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1EGemfD_y8I0NLg_3RQaKPH640ndPVQaC/view?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1lstyztXudlXt8RHiS1jKHQ1nlYrEjLR2?usp=sharing",
+  },
   {
     title: "HW 8: Analysis Refresher",
     out: new Date("23 Oct 2025 00:00:00 EST"),
