@@ -11,6 +11,7 @@ import spike from "../assets/staff-images/spike.jpg";
 import taha from "../assets/staff-images/taha.jpg";
 import abby from "../assets/staff-images/abby.png";
 import nathan from "../assets/staff-images/nathan.png";
+import ellis from "../assets/staff-images/ellis.png";
 
 interface StaffMember {
   name: string;
@@ -71,6 +72,16 @@ const staffMembers: StaffMember[] = [
     bio: "Hi guys, I'm a junior studying English and APMA-CS! I'm really into writing, reading (let me know if you have any recs!), watching obscure video essays, and listening to LE SSERAFIM. Really looking forward to meeting everyone :)",
     img: daphne,
     favoriteApple: "Belle d'Août",
+  },
+  {
+    name: "Ellis",
+    role: "Grad TA",
+    pronouns: "he/him",
+    location: "",
+    bio: "Hi!! I'm a 5th year Master’s student at Brown studying Cybersecurity. During my undergrad, I did Computer Science and IAPA. When I'm not camped out at the CIT, I enjoy reading, listening to Darknet Diaries, swimming, and exploring New England. Super excited to be your TA!",
+    img: ellis,
+    favoriteApple:
+      "🍏",
   },
   {
     name: "Jiayi",
