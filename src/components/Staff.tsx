@@ -63,7 +63,6 @@ const staffMembers: StaffMember[] = [
     img: abby,
     favoriteApple: "Gala",
   },
-
   {
     name: "Daphne",
     role: "UTA",
@@ -78,7 +77,7 @@ const staffMembers: StaffMember[] = [
     role: "Grad TA",
     pronouns: "he/him",
     location: "",
-    bio: "Hi!! I'm a 5th year Master’s student at Brown studying Cybersecurity. During my undergrad, I did Computer Science and IAPA. When I'm not camped out at the CIT, I enjoy reading, listening to Darknet Diaries, swimming, and exploring New England. Super excited to be your TA!",
+    bio: "Hi!! I'm a 5th year Master's student at Brown studying Cybersecurity. During my undergrad, I did Computer Science and IAPA. When I'm not camped out at the CIT, I enjoy reading, listening to Darknet Diaries, swimming, and exploring New England. Super excited to be your TA!",
     img: ellis,
     favoriteApple:
       "🍏",
