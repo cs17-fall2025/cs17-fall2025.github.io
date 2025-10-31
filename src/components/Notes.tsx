@@ -9,6 +9,11 @@ interface NoteData {
 
 const notesData: NoteData[] = [
   {
+    date: "10/31: First-class functions, Environments, and the Final Rules of Evaluation 🎃",
+    slidesUrl:
+      "https://drive.google.com/file/d/1KmlUezChJa96PnR9DHn70PBmEaSVazlg/view?usp=sharing",
+  },
+  {
     date: "10/27: ADTs, Part 2",
     slidesUrl:
       "https://drive.google.com/file/d/1cc8ldZcAg-utKtKkQASW-Nf11LscHe3Z/view?usp=sharing",
