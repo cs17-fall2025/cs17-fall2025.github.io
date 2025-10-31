@@ -42,7 +42,7 @@ const staffMembers: StaffMember[] = [
     location: "Madison, NJ / Orlando, FL (?)",
     bio: "Hi everyone!! I'm a senior studying Computational Biology with a healthy dose of Lit Arts. When I'm not thinking about ReasonML, you can catch me playing banjo, reading Moby Dick, quilting, or doomscrolling on Facebook Marketplace. Super excited to meet you all :)",
     img: skylar,
-    favoriteApple: "Obvious choice. Wickson",
+    favoriteApple: "Dyer (RI native!)",
   },
   {
     name: "Julie",
@@ -76,11 +76,11 @@ const staffMembers: StaffMember[] = [
     name: "Ellis",
     role: "Grad TA",
     pronouns: "he/him",
-    location: "",
+    location: "Dettenhausen, Germany",
     bio: "Hi!! I'm a 5th year Master's student at Brown studying Cybersecurity. During my undergrad, I did Computer Science and IAPA. When I'm not camped out at the CIT, I enjoy reading, listening to Darknet Diaries, swimming, and exploring New England. Super excited to be your TA!",
     img: ellis,
     favoriteApple:
-      "🍏",
+      "Rhode Island Greening",
   },
   {
     name: "Jiayi",
