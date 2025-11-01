@@ -136,7 +136,8 @@ const homeworks = [
     due: new Date("5 Nov 2025 22:00:00 EST"),
     late: new Date("6 Nov 2025 22:00:00 EST"),
     link: "https://drive.google.com/file/d/1EGemfD_y8I0NLg_3RQaKPH640ndPVQaC/view?usp=sharing",
-    source: "https://drive.google.com/drive/folders/1lstyztXudlXt8RHiS1jKHQ1nlYrEjLR2?usp=sharing",
+    source:
+      "https://drive.google.com/drive/folders/1lstyztXudlXt8RHiS1jKHQ1nlYrEjLR2?usp=sharing",
   },
   {
     title: "HW 8: Analysis Refresher",
@@ -233,7 +234,7 @@ const projects = [
     late: new Date("8 Nov 2025 23:00:00 EST"),
     link: "https://drive.google.com/file/d/1S09UaFcMSw5EqBEpKWEJNzEHvnlXRRyU/view?usp=sharing",
     source:
-      "https://drive.google.com/drive/folders/1ShSMHWjwlrbl6qhnsjB_xYAmUeu02oyh?usp=sharing",
+      "https://drive.google.com/drive/folders/1zri08SFLv88wa43LTF0yRUliP0Y4z1Pp?usp=sharing",
     gearup:
       "https://drive.google.com/drive/folders/1c2WeU1oNxAIYD-bu7eHE5tbePPBoHzGc?usp=sharing",
   },
