@@ -33,15 +33,17 @@ const labs = [
   //   slide: "",
   //   source: "",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 9: ADTs",
-  //   out: new Date("27 Oct 2025 14:00:00 EST"),
-  //   due: new Date("3 Nov 2025 13:59:00 EST"),
-  //   link: "",
-  //   slide: "",
-  //   source: "",
-  // },
+  {
+    /* update handout */
+    title: "Lab 9: ADTs",
+    out: new Date("1 Nov 2025 21:00:00 EST"),
+    due: new Date("9 Nov 2025 23:59:00 EST"),
+    link: "https://drive.google.com/file/d/1sufkqz--4qjb1hRpqQDqSit6BQKL_qRg/view?usp=drive_link",
+    slide:
+      "https://docs.google.com/presentation/d/12_vpyGx4M_AlsSQb1P_SaKg-pCcCVNkzyrCvZiJhD_U/edit?usp=drive_link",
+    source:
+      "https://drive.google.com/drive/folders/1aEZbdR-7SMsn-2aCA5iJj1DhM6IknWT9?usp=drive_link",
+  },
   {
     /* update handout */
     title: "Lab 8: Environments",
