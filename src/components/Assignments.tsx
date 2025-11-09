@@ -24,15 +24,15 @@ const labs = [
   //   slide: "#",
   //   source: "#",
   // },
-  // {
-  //   /* update handout */
-  //   title: "Lab 10: Game",
-  //   out: new Date("3 Nov 2025 14:00:00 EST"),
-  //   due: new Date("10 Nov 2025 13:59:00 EST"),
-  //   link: "",
-  //   slide: "",
-  //   source: "",
-  // },
+  {
+    /* update handout */
+    title: "Lab 10: Game",
+    out: new Date("9 Nov 2025 00:00:00 EST"),
+    due: new Date("17 Nov 2025 13:59:00 EST"),
+    link: "https://drive.google.com/file/d/12A8TK8HdhcYWCED2Fl3oZakBnQ7THFz5/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1ax9NlAGB9gT6ZSSnj4TXA-ok8DIm2ygT1FFWZOQOB-k/edit?usp=drive_link",
+    source: "https://drive.google.com/drive/folders/1vZWef1iNTuT78vuW42-tNCNccktgVA_w?usp=drive_link",
+  },
   {
     /* update handout */
     title: "Lab 9: ADTs",
