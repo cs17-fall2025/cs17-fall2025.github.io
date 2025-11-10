@@ -230,7 +230,7 @@ const projects = [
     link: "https://drive.google.com/file/d/1_KJ4oZ6xBd46yatitmQzsLBclpio0H-2/view?usp=sharing",
     source:
       "https://drive.google.com/drive/folders/1K--PZ4Y0G7aXd5-Jv5iLZKzG1d7Q1IM1?usp=sharing",
-    gearup: "#",
+    gearup: "",
   },
   {
     title: "Rackette",
