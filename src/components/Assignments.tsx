@@ -30,8 +30,10 @@ const labs = [
     out: new Date("9 Nov 2025 00:00:00 EST"),
     due: new Date("17 Nov 2025 13:59:00 EST"),
     link: "https://drive.google.com/file/d/12A8TK8HdhcYWCED2Fl3oZakBnQ7THFz5/view?usp=sharing",
-    slide: "https://docs.google.com/presentation/d/1ax9NlAGB9gT6ZSSnj4TXA-ok8DIm2ygT1FFWZOQOB-k/edit?usp=drive_link",
-    source: "https://drive.google.com/drive/folders/1vZWef1iNTuT78vuW42-tNCNccktgVA_w?usp=drive_link",
+    slide:
+      "https://docs.google.com/presentation/d/1ax9NlAGB9gT6ZSSnj4TXA-ok8DIm2ygT1FFWZOQOB-k/edit?usp=drive_link",
+    source:
+      "https://drive.google.com/drive/folders/1vZWef1iNTuT78vuW42-tNCNccktgVA_w?usp=drive_link",
   },
   {
     /* update handout */
@@ -220,15 +222,16 @@ const homeworks = [
 ];
 
 const projects = [
-  // {
-  //   title: "Game",
-  //   out: new Date("11 Nov 2025 12:00:00 EST"),
-  //   due: new Date("6 Dec 2025 22:00:00 EST"),
-  //   late: new Date("7 Dec 2025 22:00:00 EST"),
-  //   link: "#",
-  //   source: "#",
-  //   gearup: "#",
-  // },
+  {
+    title: "Game",
+    out: new Date("10 Nov 2025 12:00:00 EST"),
+    due: new Date("5 Dec 2025 22:00:00 EST"),
+    late: new Date("6 Dec 2025 22:00:00 EST"),
+    link: "https://drive.google.com/file/d/1_KJ4oZ6xBd46yatitmQzsLBclpio0H-2/view?usp=sharing",
+    source:
+      "https://drive.google.com/drive/folders/1K--PZ4Y0G7aXd5-Jv5iLZKzG1d7Q1IM1?usp=sharing",
+    gearup: "#",
+  },
   {
     title: "Rackette",
     out: new Date("23 Oct 2025 15:00:00 EST"),
