@@ -15,15 +15,15 @@ const date_formatting_2: Intl.DateTimeFormatOptions = {
 };
 
 const labs = [
-  // {
-  //   /* update handout */
-  //   title: "Lab 11: Sort",
-  //   out: new Date("10 Nov 2025 14:00:00 EST"),
-  //   due: new Date("17 Nov 2025 13:59:00 EST"),
-  //   link: "#",
-  //   slide: "#",
-  //   source: "#",
-  // },
+  {
+    /* update handout */
+    title: "Lab 11: Sort",
+    out: new Date("16 Nov 2025 00:00:00 EST"),
+    due: new Date("22 Nov 2025 13:59:00 EST"),
+    link: "https://drive.google.com/file/d/1k0By5HplokVjEck8U6KF29f60tWQ-H8F/view?usp=sharing",
+    slide: "https://docs.google.com/presentation/d/1vU1fNGsU4tI0Uh-XPsOsWOlgAICZbDFKesxr-MgCl_Y/edit?usp=sharing",
+    source: "https://drive.google.com/drive/folders/1OIIkUbIMMX6I6EMVHXyym2bSH0W2tOx0?usp=sharing",
+  },
   {
     /* update handout */
     title: "Lab 10: Game",
