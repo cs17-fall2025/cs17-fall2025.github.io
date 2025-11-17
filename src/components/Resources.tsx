@@ -46,6 +46,13 @@ export default function Resources() {
           >
             <div className="resource-box">Anon Feedback Form</div>
           </a>
+          <a
+            href="https://static.us.edusercontent.com/files/a4WIpqEr3VgCKhHvkO36h9Je"
+            target="_blank"
+          >
+            <div className="resource-box">Analysis Table</div>
+          </a>
+
           <a href="https://adamapples.blogspot.com/" target="_blank">
             <div className="resource-box">Apples</div>
           </a>
