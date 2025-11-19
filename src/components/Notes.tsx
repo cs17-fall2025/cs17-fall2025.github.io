@@ -9,7 +9,7 @@ interface NoteData {
 
 const notesData: NoteData[] = [
   {
-    date: "11/21: AB Pruning",
+    date: "11/19: AB Pruning",
     slidesUrl:
       "https://drive.google.com/file/d/1XIIsruSZ3HSC-du-Fcpe5L2R9O9qLUOc/view?usp=sharing",
   },
