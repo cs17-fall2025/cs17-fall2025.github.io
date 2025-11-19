@@ -21,8 +21,10 @@ const labs = [
     out: new Date("16 Nov 2025 00:00:00 EST"),
     due: new Date("22 Nov 2025 13:59:00 EST"),
     link: "https://drive.google.com/file/d/1k0By5HplokVjEck8U6KF29f60tWQ-H8F/view?usp=sharing",
-    slide: "https://docs.google.com/presentation/d/1vU1fNGsU4tI0Uh-XPsOsWOlgAICZbDFKesxr-MgCl_Y/edit?usp=sharing",
-    source: "https://drive.google.com/drive/folders/1OIIkUbIMMX6I6EMVHXyym2bSH0W2tOx0?usp=sharing",
+    slide:
+      "https://docs.google.com/presentation/d/1vU1fNGsU4tI0Uh-XPsOsWOlgAICZbDFKesxr-MgCl_Y/edit?usp=sharing",
+    source:
+      "https://drive.google.com/drive/folders/1OIIkUbIMMX6I6EMVHXyym2bSH0W2tOx0?usp=sharing",
   },
   {
     /* update handout */
@@ -430,6 +432,7 @@ export default function Assignments() {
             <th>Assignment</th>
             <th>Out:</th>
             <th>Slides:</th>
+            <th>Setup:</th>
           </tr>
         </thead>
         <tbody>
@@ -444,6 +447,7 @@ export default function Assignments() {
               </td>
               <td>{formatDate(lab.out, date_formatting_2)}</td>
               <td>{lab.slide ? <a href={lab.slide}>Slides</a> : ""}</td>
+              <td>{lab.source ? <a href={lab.source}>Setup</a> : ""}</td>
             </tr>
           ))}
         </tbody>
